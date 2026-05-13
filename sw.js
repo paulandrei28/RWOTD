@@ -1,4 +1,4 @@
-const CACHE_NAME = "rwotd-v1";
+const CACHE_NAME = "rwotd-v2";
 const ASSETS = [
     ".",
     "index.html",
@@ -7,8 +7,6 @@ const ASSETS = [
     "words.json",
     "manifest.json",
     "icons/icon.svg",
-    "icons/icon-192.png",
-    "icons/icon-512.png",
 ];
 
 // Install: cache all assets
