@@ -1,7 +1,7 @@
 [
 {
 "word": "dragoste",
-"pronunciation": "drah-GOS-teh",
+"pronunciation": "DRAH-gos-teh",
 "definition": "love; deep affection or romantic feeling",
 "partOfSpeech": "noun"
 },
@@ -13,37 +13,37 @@
 },
 {
 "word": "zăpadă",
-"pronunciation": "ZAH-pah-dah",
+"pronunciation": "ZUH-pah-duh",
 "definition": "snow",
 "partOfSpeech": "noun"
 },
 {
 "word": "lumină",
-"pronunciation": "loo-MEE-nah",
+"pronunciation": "loo-MEE-nuh",
 "definition": "light; illumination",
 "partOfSpeech": "noun"
 },
 {
 "word": "ploaie",
-"pronunciation": "PLWAH-yeh",
+"pronunciation": "PLO-ah-yeh",
 "definition": "rain",
 "partOfSpeech": "noun"
 },
 {
 "word": "soare",
-"pronunciation": "SWAH-reh",
+"pronunciation": "SO-ah-reh",
 "definition": "sun",
 "partOfSpeech": "noun"
 },
 {
 "word": "lună",
-"pronunciation": "LOO-nah",
+"pronunciation": "LOO-nuh",
 "definition": "moon; also the word for month",
 "partOfSpeech": "noun"
 },
 {
 "word": "stea",
-"pronunciation": "STEH-ah",
+"pronunciation": "STYA",
 "definition": "star",
 "partOfSpeech": "noun"
 },
@@ -61,13 +61,13 @@
 },
 {
 "word": "prietenă",
-"pronunciation": "pree-eh-TEH-nah",
+"pronunciation": "pree-eh-TEH-nuh",
 "definition": "friend (female)",
 "partOfSpeech": "noun"
 },
 {
 "word": "inimă",
-"pronunciation": "EE-nee-mah",
+"pronunciation": "EE-nee-muh",
 "definition": "heart",
 "partOfSpeech": "noun"
 },
@@ -79,13 +79,13 @@
 },
 {
 "word": "viață",
-"pronunciation": "vee-AH-tsah",
+"pronunciation": "vee-AH-tsuh",
 "definition": "life",
 "partOfSpeech": "noun"
 },
 {
 "word": "moarte",
-"pronunciation": "MWAHR-teh",
+"pronunciation": "MO-ahr-teh",
 "definition": "death",
 "partOfSpeech": "noun"
 },
@@ -109,7 +109,7 @@
 },
 {
 "word": "speranță",
-"pronunciation": "speh-RAHN-tsah",
+"pronunciation": "speh-RAHN-tsuh",
 "definition": "hope",
 "partOfSpeech": "noun"
 },
@@ -121,7 +121,7 @@
 },
 {
 "word": "răsărit",
-"pronunciation": "rah-sah-REET",
+"pronunciation": "ruh-suh-REET",
 "definition": "sunrise; dawn",
 "partOfSpeech": "noun"
 },
@@ -133,7 +133,7 @@
 },
 {
 "word": "pădure",
-"pronunciation": "pah-DOO-reh",
+"pronunciation": "puh-DOO-reh",
 "definition": "forest; woods",
 "partOfSpeech": "noun"
 },
@@ -145,7 +145,7 @@
 },
 {
 "word": "râu",
-"pronunciation": "RAH-oo",
+"pronunciation": "RUH-oo",
 "definition": "river",
 "partOfSpeech": "noun"
 },
@@ -169,13 +169,13 @@
 },
 {
 "word": "pământ",
-"pronunciation": "pah-MAHNT",
+"pronunciation": "puh-MUHNT",
 "definition": "earth; ground; soil",
 "partOfSpeech": "noun"
 },
 {
 "word": "vânt",
-"pronunciation": "VAHNT",
+"pronunciation": "VUHNT",
 "definition": "wind",
 "partOfSpeech": "noun"
 },
@@ -187,25 +187,25 @@
 },
 {
 "word": "apă",
-"pronunciation": "AH-pah",
+"pronunciation": "AH-puh",
 "definition": "water",
 "partOfSpeech": "noun"
 },
 {
 "word": "gheață",
-"pronunciation": "GYAH-tsah",
+"pronunciation": "GYAH-tsuh",
 "definition": "ice",
 "partOfSpeech": "noun"
 },
 {
 "word": "noapte",
-"pronunciation": "NWAHP-teh",
+"pronunciation": "NO-ahp-teh",
 "definition": "night",
 "partOfSpeech": "noun"
 },
 {
 "word": "dimineață",
-"pronunciation": "dee-mee-NYAH-tsah",
+"pronunciation": "dee-mee-NYA-tsuh",
 "definition": "morning",
 "partOfSpeech": "noun"
 },
@@ -217,31 +217,31 @@
 },
 {
 "word": "primăvară",
-"pronunciation": "pree-mah-VAH-rah",
+"pronunciation": "pree-muh-VAH-ruh",
 "definition": "spring (season)",
 "partOfSpeech": "noun"
 },
 {
 "word": "vară",
-"pronunciation": "VAH-rah",
+"pronunciation": "VAH-ruh",
 "definition": "summer",
 "partOfSpeech": "noun"
 },
 {
 "word": "toamnă",
-"pronunciation": "TWAHM-nah",
+"pronunciation": "TO-ahm-nuh",
 "definition": "autumn; fall",
 "partOfSpeech": "noun"
 },
 {
 "word": "iarnă",
-"pronunciation": "YAHR-nah",
+"pronunciation": "YAHR-nuh",
 "definition": "winter",
 "partOfSpeech": "noun"
 },
 {
 "word": "floare",
-"pronunciation": "FLWAH-reh",
+"pronunciation": "FLO-ah-reh",
 "definition": "flower",
 "partOfSpeech": "noun"
 },
@@ -253,31 +253,31 @@
 },
 {
 "word": "frunză",
-"pronunciation": "FROON-zah",
+"pronunciation": "FROON-zuh",
 "definition": "leaf",
 "partOfSpeech": "noun"
 },
 {
 "word": "iarbă",
-"pronunciation": "YAHR-bah",
+"pronunciation": "YAHR-buh",
 "definition": "grass",
 "partOfSpeech": "noun"
 },
 {
 "word": "rădăcină",
-"pronunciation": "rah-dah-CHEE-nah",
+"pronunciation": "ruh-duh-CHEE-nuh",
 "definition": "root (of a plant)",
 "partOfSpeech": "noun"
 },
 {
 "word": "sămânță",
-"pronunciation": "sah-MAHN-tsah",
+"pronunciation": "suh-MUHN-tsuh",
 "definition": "seed",
 "partOfSpeech": "noun"
 },
 {
 "word": "pasăre",
-"pronunciation": "PAH-sah-reh",
+"pronunciation": "PAH-suh-reh",
 "definition": "bird",
 "partOfSpeech": "noun"
 },
@@ -289,13 +289,13 @@
 },
 {
 "word": "pisică",
-"pronunciation": "pee-SEE-kah",
+"pronunciation": "pee-SEE-kuh",
 "definition": "cat",
 "partOfSpeech": "noun"
 },
 {
 "word": "câine",
-"pronunciation": "KAH-ee-neh",
+"pronunciation": "KUH-ee-neh",
 "definition": "dog",
 "partOfSpeech": "noun"
 },
@@ -337,25 +337,25 @@
 },
 {
 "word": "albină",
-"pronunciation": "ahl-BEE-nah",
+"pronunciation": "ahl-BEE-nuh",
 "definition": "bee",
 "partOfSpeech": "noun"
 },
 {
 "word": "furnică",
-"pronunciation": "foor-NEE-kah",
+"pronunciation": "foor-NEE-kuh",
 "definition": "ant",
 "partOfSpeech": "noun"
 },
 {
 "word": "păianjen",
-"pronunciation": "pah-YAHN-jen",
+"pronunciation": "puh-YAHN-jen",
 "definition": "spider",
 "partOfSpeech": "noun"
 },
 {
 "word": "broască",
-"pronunciation": "BRWAHSS-kah",
+"pronunciation": "BRO-ahsh-kuh",
 "definition": "frog",
 "partOfSpeech": "noun"
 },
@@ -367,7 +367,7 @@
 },
 {
 "word": "pâine",
-"pronunciation": "PAH-ee-neh",
+"pronunciation": "PUH-ee-neh",
 "definition": "bread",
 "partOfSpeech": "noun"
 },
@@ -385,7 +385,7 @@
 },
 {
 "word": "brânză",
-"pronunciation": "BRAHN-zah",
+"pronunciation": "BRUHN-zuh",
 "definition": "cheese",
 "partOfSpeech": "noun"
 },
@@ -403,7 +403,7 @@
 },
 {
 "word": "supă",
-"pronunciation": "SOO-pah",
+"pronunciation": "SOO-puh",
 "definition": "soup",
 "partOfSpeech": "noun"
 },
@@ -415,13 +415,13 @@
 },
 {
 "word": "prăjitură",
-"pronunciation": "prah-zhee-TOO-rah",
+"pronunciation": "pruh-zhee-TOO-ruh",
 "definition": "cake; pastry",
 "partOfSpeech": "noun"
 },
 {
 "word": "înghețată",
-"pronunciation": "een-gyeh-TSAH-tah",
+"pronunciation": "uhn-geh-TSAH-tuh",
 "definition": "ice cream",
 "partOfSpeech": "noun"
 },
@@ -433,31 +433,31 @@
 },
 {
 "word": "măr",
-"pronunciation": "MAHR",
+"pronunciation": "MUHR",
 "definition": "apple",
 "partOfSpeech": "noun"
 },
 {
 "word": "pară",
-"pronunciation": "PAH-rah",
+"pronunciation": "PAH-ruh",
 "definition": "pear",
 "partOfSpeech": "noun"
 },
 {
 "word": "cireșă",
-"pronunciation": "chee-REH-shah",
+"pronunciation": "chee-REH-shuh",
 "definition": "cherry",
 "partOfSpeech": "noun"
 },
 {
 "word": "căpșună",
-"pronunciation": "KAHP-shoo-nah",
+"pronunciation": "kuhp-SHOO-nuh",
 "definition": "strawberry",
 "partOfSpeech": "noun"
 },
 {
 "word": "piersică",
-"pronunciation": "pee-EHR-see-kah",
+"pronunciation": "pee-EHR-see-kuh",
 "definition": "peach",
 "partOfSpeech": "noun"
 },
@@ -475,7 +475,7 @@
 },
 {
 "word": "ceapă",
-"pronunciation": "CHAH-pah",
+"pronunciation": "CHA-puh",
 "definition": "onion",
 "partOfSpeech": "noun"
 },
@@ -511,19 +511,19 @@
 },
 {
 "word": "casă",
-"pronunciation": "KAH-sah",
+"pronunciation": "KAH-suh",
 "definition": "house; home",
 "partOfSpeech": "noun"
 },
 {
 "word": "ușă",
-"pronunciation": "OO-shah",
+"pronunciation": "OO-shuh",
 "definition": "door",
 "partOfSpeech": "noun"
 },
 {
 "word": "fereastră",
-"pronunciation": "feh-RYAHS-trah",
+"pronunciation": "feh-RYAHS-truh",
 "definition": "window",
 "partOfSpeech": "noun"
 },
@@ -541,7 +541,7 @@
 },
 {
 "word": "scară",
-"pronunciation": "SKAH-rah",
+"pronunciation": "SKAH-ruh",
 "definition": "staircase; ladder",
 "partOfSpeech": "noun"
 },
@@ -559,7 +559,7 @@
 },
 {
 "word": "masă",
-"pronunciation": "MAH-sah",
+"pronunciation": "MAH-suh",
 "definition": "table",
 "partOfSpeech": "noun"
 },
@@ -571,13 +571,13 @@
 },
 {
 "word": "oglindă",
-"pronunciation": "oh-GLEEN-dah",
+"pronunciation": "oh-GLEEN-duh",
 "definition": "mirror",
 "partOfSpeech": "noun"
 },
 {
 "word": "lumânare",
-"pronunciation": "loo-mah-NAH-reh",
+"pronunciation": "loo-muh-NAH-reh",
 "definition": "candle",
 "partOfSpeech": "noun"
 },
@@ -613,7 +613,7 @@
 },
 {
 "word": "cântec",
-"pronunciation": "KAHN-tek",
+"pronunciation": "KUHN-tek",
 "definition": "song",
 "partOfSpeech": "noun"
 },
@@ -631,7 +631,7 @@
 },
 {
 "word": "umbră",
-"pronunciation": "OOM-brah",
+"pronunciation": "OOM-bruh",
 "definition": "shadow; shade",
 "partOfSpeech": "noun"
 },
@@ -643,13 +643,13 @@
 },
 {
 "word": "șoaptă",
-"pronunciation": "SHWAHP-tah",
+"pronunciation": "SHO-ahp-tuh",
 "definition": "whisper",
 "partOfSpeech": "noun"
 },
 {
 "word": "tăcere",
-"pronunciation": "tah-CHEH-reh",
+"pronunciation": "tuh-CHEH-reh",
 "definition": "silence",
 "partOfSpeech": "noun"
 },
@@ -733,7 +733,7 @@
 },
 {
 "word": "urât",
-"pronunciation": "oo-RAHT",
+"pronunciation": "oo-RUHT",
 "definition": "ugly",
 "partOfSpeech": "adjective"
 },
@@ -757,7 +757,7 @@
 },
 {
 "word": "înalt",
-"pronunciation": "ee-NAHLT",
+"pronunciation": "uh-NAHLT",
 "definition": "tall; high",
 "partOfSpeech": "adjective"
 },
@@ -769,7 +769,7 @@
 },
 {
 "word": "ușor",
-"pronunciation": "oo-SHOHR",
+"pronunciation": "oo-SHOR",
 "definition": "light (weight); easy",
 "partOfSpeech": "adjective"
 },
@@ -811,7 +811,7 @@
 },
 {
 "word": "sărat",
-"pronunciation": "sah-RAHT",
+"pronunciation": "suh-RAHT",
 "definition": "salty",
 "partOfSpeech": "adjective"
 },
@@ -853,7 +853,7 @@
 },
 {
 "word": "sărac",
-"pronunciation": "SAH-rahk",
+"pronunciation": "SUH-rahk",
 "definition": "poor",
 "partOfSpeech": "adjective"
 },
@@ -877,13 +877,13 @@
 },
 {
 "word": "flămând",
-"pronunciation": "flah-MAHND",
+"pronunciation": "fluh-MUHND",
 "definition": "hungry",
 "partOfSpeech": "adjective"
 },
 {
 "word": "însetat",
-"pronunciation": "een-seh-TAHT",
+"pronunciation": "uhn-seh-TAHT",
 "definition": "thirsty",
 "partOfSpeech": "adjective"
 },
@@ -895,7 +895,7 @@
 },
 {
 "word": "sănătos",
-"pronunciation": "sah-nah-TOHS",
+"pronunciation": "suh-nuh-TOHS",
 "definition": "healthy",
 "partOfSpeech": "adjective"
 },
@@ -907,19 +907,19 @@
 },
 {
 "word": "împreună",
-"pronunciation": "eem-preh-OO-nah",
+"pronunciation": "uhm-preh-OO-nuh",
 "definition": "together",
 "partOfSpeech": "adverb"
 },
 {
 "word": "întotdeauna",
-"pronunciation": "een-toht-deh-AH-oo-nah",
+"pronunciation": "uhn-toht-deh-AH-oo-nah",
 "definition": "always",
 "partOfSpeech": "adverb"
 },
 {
 "word": "niciodată",
-"pronunciation": "nee-choh-DAH-tah",
+"pronunciation": "nee-cho-DAH-tuh",
 "definition": "never",
 "partOfSpeech": "adverb"
 },
@@ -949,7 +949,7 @@
 },
 {
 "word": "încet",
-"pronunciation": "een-CHET",
+"pronunciation": "uhn-CHET",
 "definition": "slowly; quietly",
 "partOfSpeech": "adverb"
 },
@@ -967,7 +967,7 @@
 },
 {
 "word": "gândi",
-"pronunciation": "gahn-DEE",
+"pronunciation": "guhn-DEE",
 "definition": "to think",
 "partOfSpeech": "verb"
 },
@@ -979,7 +979,7 @@
 },
 {
 "word": "vedea",
-"pronunciation": "veh-DYAH",
+"pronunciation": "veh-DYA",
 "definition": "to see",
 "partOfSpeech": "verb"
 },
@@ -1021,7 +1021,7 @@
 },
 {
 "word": "sări",
-"pronunciation": "sah-REE",
+"pronunciation": "suh-REE",
 "definition": "to jump",
 "partOfSpeech": "verb"
 },
@@ -1045,19 +1045,19 @@
 },
 {
 "word": "cânta",
-"pronunciation": "kahn-TAH",
+"pronunciation": "kuhn-TAH",
 "definition": "to sing",
 "partOfSpeech": "verb"
 },
 {
 "word": "râde",
-"pronunciation": "RAH-deh",
+"pronunciation": "RUH-deh",
 "definition": "to laugh",
 "partOfSpeech": "verb"
 },
 {
 "word": "plânge",
-"pronunciation": "PLAHN-jeh",
+"pronunciation": "PLUHN-jeh",
 "definition": "to cry; to weep",
 "partOfSpeech": "verb"
 },
@@ -1075,31 +1075,31 @@
 },
 {
 "word": "mânca",
-"pronunciation": "mahn-KAH",
+"pronunciation": "muhn-KAH",
 "definition": "to eat",
 "partOfSpeech": "verb"
 },
 {
 "word": "bea",
-"pronunciation": "BYAH",
+"pronunciation": "BYA",
 "definition": "to drink",
 "partOfSpeech": "verb"
 },
 {
 "word": "găti",
-"pronunciation": "gah-TEE",
+"pronunciation": "guh-TEE",
 "definition": "to cook; to prepare",
 "partOfSpeech": "verb"
 },
 {
 "word": "spăla",
-"pronunciation": "spah-LAH",
+"pronunciation": "spuh-LAH",
 "definition": "to wash",
 "partOfSpeech": "verb"
 },
 {
 "word": "îmbrăca",
-"pronunciation": "eem-brah-KAH",
+"pronunciation": "uhm-bruh-KAH",
 "definition": "to dress; to put on clothes",
 "partOfSpeech": "verb"
 },
@@ -1111,7 +1111,7 @@
 },
 {
 "word": "învăța",
-"pronunciation": "een-vah-TSAH",
+"pronunciation": "uhn-vuh-TSAH",
 "definition": "to learn; to study",
 "partOfSpeech": "verb"
 },
@@ -1135,13 +1135,13 @@
 },
 {
 "word": "căuta",
-"pronunciation": "KAH-oo-tah",
+"pronunciation": "kuh-oo-TAH",
 "definition": "to search; to look for",
 "partOfSpeech": "verb"
 },
 {
 "word": "găsi",
-"pronunciation": "gah-SEE",
+"pronunciation": "guh-SEE",
 "definition": "to find",
 "partOfSpeech": "verb"
 },
@@ -1153,7 +1153,7 @@
 },
 {
 "word": "câștiga",
-"pronunciation": "kahsh-tee-GAH",
+"pronunciation": "kuhsh-tee-GAH",
 "definition": "to win; to earn",
 "partOfSpeech": "verb"
 },
@@ -1201,7 +1201,7 @@
 },
 {
 "word": "cădea",
-"pronunciation": "kah-DYAH",
+"pronunciation": "kuh-DYA",
 "definition": "to fall",
 "partOfSpeech": "verb"
 },
@@ -1213,7 +1213,7 @@
 },
 {
 "word": "tăia",
-"pronunciation": "tah-YAH",
+"pronunciation": "tuh-YAH",
 "definition": "to cut",
 "partOfSpeech": "verb"
 },
@@ -1237,7 +1237,7 @@
 },
 {
 "word": "închide",
-"pronunciation": "een-KEE-deh",
+"pronunciation": "uhn-KEE-deh",
 "definition": "to close",
 "partOfSpeech": "verb"
 },
@@ -1255,19 +1255,19 @@
 },
 {
 "word": "îmbrățișa",
-"pronunciation": "eem-brah-tee-SHAH",
+"pronunciation": "uhm-bruh-tsee-SHAH",
 "definition": "to hug; to embrace",
 "partOfSpeech": "verb"
 },
 {
 "word": "săruta",
-"pronunciation": "sah-roo-TAH",
+"pronunciation": "suh-roo-TAH",
 "definition": "to kiss",
 "partOfSpeech": "verb"
 },
 {
 "word": "zâmbi",
-"pronunciation": "zahm-BEE",
+"pronunciation": "zuhm-BEE",
 "definition": "to smile",
 "partOfSpeech": "verb"
 },
@@ -1321,7 +1321,7 @@
 },
 {
 "word": "colină",
-"pronunciation": "koh-LEE-nah",
+"pronunciation": "koh-LEE-nuh",
 "definition": "hill",
 "partOfSpeech": "noun"
 },
@@ -1339,19 +1339,19 @@
 },
 {
 "word": "cascadă",
-"pronunciation": "kahs-KAH-dah",
+"pronunciation": "kahs-KAH-duh",
 "definition": "waterfall",
 "partOfSpeech": "noun"
 },
 {
 "word": "peșteră",
-"pronunciation": "pesh-TEH-rah",
+"pronunciation": "pesh-TEH-ruh",
 "definition": "cave",
 "partOfSpeech": "noun"
 },
 {
 "word": "stâncă",
-"pronunciation": "STAHN-kah",
+"pronunciation": "STUHN-kuh",
 "definition": "rock; cliff",
 "partOfSpeech": "noun"
 },
@@ -1393,19 +1393,19 @@
 },
 {
 "word": "ceață",
-"pronunciation": "CHAH-tsah",
+"pronunciation": "CHA-tsuh",
 "definition": "fog; mist",
 "partOfSpeech": "noun"
 },
 {
 "word": "rouă",
-"pronunciation": "ROH-wah",
+"pronunciation": "ROH-wuh",
 "definition": "dew",
 "partOfSpeech": "noun"
 },
 {
 "word": "brumă",
-"pronunciation": "BROO-mah",
+"pronunciation": "BROO-muh",
 "definition": "frost",
 "partOfSpeech": "noun"
 },
@@ -1417,7 +1417,7 @@
 },
 {
 "word": "furtună",
-"pronunciation": "foor-TOO-nah",
+"pronunciation": "foor-TOO-nuh",
 "definition": "storm",
 "partOfSpeech": "noun"
 },
@@ -1459,7 +1459,7 @@
 },
 {
 "word": "ramură",
-"pronunciation": "rah-MOO-rah",
+"pronunciation": "rah-MOO-ruh",
 "definition": "branch; bough",
 "partOfSpeech": "noun"
 },
@@ -1471,13 +1471,13 @@
 },
 {
 "word": "coroană",
-"pronunciation": "koh-RWAH-nah",
+"pronunciation": "koh-RO-ah-nuh",
 "definition": "crown; canopy (of a tree)",
 "partOfSpeech": "noun"
 },
 {
 "word": "ciupercă",
-"pronunciation": "choo-PEHR-kah",
+"pronunciation": "choo-PEHR-kuh",
 "definition": "mushroom",
 "partOfSpeech": "noun"
 },
@@ -1489,19 +1489,19 @@
 },
 {
 "word": "bufniță",
-"pronunciation": "BOOF-nee-tsah",
+"pronunciation": "BOOF-nee-tsuh",
 "definition": "owl",
 "partOfSpeech": "noun"
 },
 {
 "word": "rândunică",
-"pronunciation": "rahn-doo-NEE-kah",
+"pronunciation": "ruhn-doo-NEE-kuh",
 "definition": "swallow (bird)",
 "partOfSpeech": "noun"
 },
 {
 "word": "barză",
-"pronunciation": "BAHR-zah",
+"pronunciation": "BAHR-zuh",
 "definition": "stork",
 "partOfSpeech": "noun"
 },
@@ -1513,7 +1513,7 @@
 },
 {
 "word": "ciocârlie",
-"pronunciation": "choh-KAHR-lee-eh",
+"pronunciation": "cho-KUH-ree-eh",
 "definition": "skylark",
 "partOfSpeech": "noun"
 },
@@ -1537,13 +1537,13 @@
 },
 {
 "word": "cioară",
-"pronunciation": "choh-AH-rah",
+"pronunciation": "cho-AH-ruh",
 "definition": "crow",
 "partOfSpeech": "noun"
 },
 {
 "word": "veveriță",
-"pronunciation": "veh-veh-REE-tsah",
+"pronunciation": "veh-veh-REE-tsuh",
 "definition": "squirrel",
 "partOfSpeech": "noun"
 },
@@ -1561,13 +1561,13 @@
 },
 {
 "word": "căprioară",
-"pronunciation": "kah-pree-WAHR-ah",
+"pronunciation": "kuh-pree-O-ah-ruh",
 "definition": "doe; roe deer",
 "partOfSpeech": "noun"
 },
 {
 "word": "mistreț",
-"pronunciation": "mees-TREHT",
+"pronunciation": "mees-TREHTS",
 "definition": "wild boar",
 "partOfSpeech": "noun"
 },
@@ -1585,19 +1585,19 @@
 },
 {
 "word": "rață",
-"pronunciation": "RAH-tsah",
+"pronunciation": "RAH-tsuh",
 "definition": "duck",
 "partOfSpeech": "noun"
 },
 {
 "word": "gâscă",
-"pronunciation": "GAHS-kah",
+"pronunciation": "GUHS-kuh",
 "definition": "goose",
 "partOfSpeech": "noun"
 },
 {
 "word": "cocoș",
-"pronunciation": "koh-KOHSH",
+"pronunciation": "koh-KOSH",
 "definition": "rooster",
 "partOfSpeech": "noun"
 },
@@ -1609,13 +1609,13 @@
 },
 {
 "word": "capră",
-"pronunciation": "KAH-prah",
+"pronunciation": "KAH-pruh",
 "definition": "goat",
 "partOfSpeech": "noun"
 },
 {
 "word": "vacă",
-"pronunciation": "VAH-kah",
+"pronunciation": "VAH-kuh",
 "definition": "cow",
 "partOfSpeech": "noun"
 },
@@ -1633,7 +1633,7 @@
 },
 {
 "word": "mazăre",
-"pronunciation": "mah-ZAH-reh",
+"pronunciation": "mah-ZUH-reh",
 "definition": "pea",
 "partOfSpeech": "noun"
 },
@@ -1645,13 +1645,13 @@
 },
 {
 "word": "varză",
-"pronunciation": "VAHR-zah",
+"pronunciation": "VAHR-zuh",
 "definition": "cabbage",
 "partOfSpeech": "noun"
 },
 {
 "word": "conopidă",
-"pronunciation": "koh-noh-PEE-dah",
+"pronunciation": "koh-noh-PEE-duh",
 "definition": "cauliflower",
 "partOfSpeech": "noun"
 },
@@ -1669,49 +1669,49 @@
 },
 {
 "word": "nucă",
-"pronunciation": "NOO-kah",
+"pronunciation": "NOO-kuh",
 "definition": "walnut",
 "partOfSpeech": "noun"
 },
 {
 "word": "alună",
-"pronunciation": "ah-LOO-nah",
+"pronunciation": "ah-LOO-nuh",
 "definition": "hazelnut",
 "partOfSpeech": "noun"
 },
 {
 "word": "smochină",
-"pronunciation": "smoh-KEE-nah",
+"pronunciation": "smoh-KEE-nuh",
 "definition": "fig",
 "partOfSpeech": "noun"
 },
 {
 "word": "zmeură",
-"pronunciation": "ZMYOO-rah",
+"pronunciation": "ZMYOO-ruh",
 "definition": "raspberry",
 "partOfSpeech": "noun"
 },
 {
 "word": "afină",
-"pronunciation": "ah-FEE-nah",
+"pronunciation": "ah-FEE-nuh",
 "definition": "blueberry",
 "partOfSpeech": "noun"
 },
 {
 "word": "mură",
-"pronunciation": "MOO-rah",
+"pronunciation": "MOO-ruh",
 "definition": "blackberry",
 "partOfSpeech": "noun"
 },
 {
 "word": "coacăză",
-"pronunciation": "kwah-KAH-zah",
+"pronunciation": "kwah-KUH-zuh",
 "definition": "currant (berry)",
 "partOfSpeech": "noun"
 },
 {
 "word": "prună",
-"pronunciation": "PROO-nah",
+"pronunciation": "PROO-nuh",
 "definition": "plum",
 "partOfSpeech": "noun"
 },
@@ -1723,7 +1723,7 @@
 },
 {
 "word": "lămâie",
-"pronunciation": "lah-MAH-yeh",
+"pronunciation": "luh-MUH-yeh",
 "definition": "lemon",
 "partOfSpeech": "noun"
 },
@@ -1735,7 +1735,7 @@
 },
 {
 "word": "mămăligă",
-"pronunciation": "mah-mah-LEE-gah",
+"pronunciation": "muh-muh-LEE-guh",
 "definition": "polenta; traditional cornmeal porridge",
 "partOfSpeech": "noun"
 },
@@ -1747,7 +1747,7 @@
 },
 {
 "word": "plăcintă",
-"pronunciation": "plah-CHEEN-tah",
+"pronunciation": "pluh-CHEEN-tuh",
 "definition": "filled pastry; savory or sweet pie",
 "partOfSpeech": "noun"
 },
@@ -1765,13 +1765,13 @@
 },
 {
 "word": "țuică",
-"pronunciation": "TSOO-ee-kah",
+"pronunciation": "TSOO-ee-kuh",
 "definition": "plum brandy (traditional spirit)",
 "partOfSpeech": "noun"
 },
 {
 "word": "pălincă",
-"pronunciation": "pah-LEEN-kah",
+"pronunciation": "puh-LEEN-kuh",
 "definition": "strong fruit brandy; moonshine",
 "partOfSpeech": "noun"
 },
@@ -1783,19 +1783,19 @@
 },
 {
 "word": "dulceață",
-"pronunciation": "dool-CHAH-tsah",
+"pronunciation": "dool-CHA-tsuh",
 "definition": "fruit preserves; jam (homemade style)",
 "partOfSpeech": "noun"
 },
 {
 "word": "zacuscă",
-"pronunciation": "zah-KOOS-kah",
+"pronunciation": "zah-KOOS-kuh",
 "definition": "roasted vegetable spread (traditional)",
 "partOfSpeech": "noun"
 },
 {
 "word": "bunică",
-"pronunciation": "BOO-nee-kah",
+"pronunciation": "BOO-nee-kuh",
 "definition": "grandmother",
 "partOfSpeech": "noun"
 },
@@ -1813,13 +1813,13 @@
 },
 {
 "word": "nepoată",
-"pronunciation": "neh-PWAH-tah",
+"pronunciation": "neh-PO-ah-tuh",
 "definition": "niece; granddaughter",
 "partOfSpeech": "noun"
 },
 {
 "word": "soț",
-"pronunciation": "SOHT",
+"pronunciation": "SOHTS",
 "definition": "husband",
 "partOfSpeech": "noun"
 },
@@ -1837,7 +1837,7 @@
 },
 {
 "word": "nașă",
-"pronunciation": "NAH-shah",
+"pronunciation": "NAH-shuh",
 "definition": "godmother; maid of honor",
 "partOfSpeech": "noun"
 },
@@ -1849,7 +1849,7 @@
 },
 {
 "word": "cumnată",
-"pronunciation": "koom-NAH-tah",
+"pronunciation": "koom-NAH-tuh",
 "definition": "sister-in-law",
 "partOfSpeech": "noun"
 },
@@ -1861,25 +1861,25 @@
 },
 {
 "word": "vecină",
-"pronunciation": "veh-CHEE-nah",
+"pronunciation": "veh-CHEE-nuh",
 "definition": "neighbor (female)",
 "partOfSpeech": "noun"
 },
 {
 "word": "bătrân",
-"pronunciation": "bah-TRAHN",
+"pronunciation": "buh-TRUHN",
 "definition": "old (for people); elderly",
 "partOfSpeech": "adjective"
 },
 {
 "word": "tânăr",
-"pronunciation": "tah-NAHR",
+"pronunciation": "TUH-nuhr",
 "definition": "young",
 "partOfSpeech": "adjective"
 },
 {
 "word": "deștept",
-"pronunciation": "desh-TEHPT",
+"pronunciation": "desh-TEPT",
 "definition": "smart; clever",
 "partOfSpeech": "adjective"
 },
@@ -1915,7 +1915,7 @@
 },
 {
 "word": "blând",
-"pronunciation": "BLAHND",
+"pronunciation": "BLUHND",
 "definition": "gentle; mild",
 "partOfSpeech": "adjective"
 },
@@ -1939,7 +1939,7 @@
 },
 {
 "word": "mândru",
-"pronunciation": "MAHN-droo",
+"pronunciation": "MUHN-droo",
 "definition": "proud",
 "partOfSpeech": "adjective"
 },
@@ -1957,13 +1957,13 @@
 },
 {
 "word": "supărat",
-"pronunciation": "soo-pah-RAHT",
+"pronunciation": "soo-puh-RAHT",
 "definition": "upset; angry",
 "partOfSpeech": "adjective"
 },
 {
 "word": "îngrijorat",
-"pronunciation": "een-gree-zhoh-RAHT",
+"pronunciation": "uhn-gree-zhoh-RAHT",
 "definition": "worried; concerned",
 "partOfSpeech": "adjective"
 },
@@ -1993,7 +1993,7 @@
 },
 {
 "word": "zgârcit",
-"pronunciation": "zgahr-CHEET",
+"pronunciation": "zguhr-CHEET",
 "definition": "stingy; miserly",
 "partOfSpeech": "adjective"
 },
@@ -2011,13 +2011,13 @@
 },
 {
 "word": "drăguț",
-"pronunciation": "drah-GOOTZ",
+"pronunciation": "druh-GOOTS",
 "definition": "cute; sweet; lovely",
 "partOfSpeech": "adjective"
 },
 {
 "word": "plăcut",
-"pronunciation": "plah-KOOT",
+"pronunciation": "pluh-KOOT",
 "definition": "pleasant; nice",
 "partOfSpeech": "adjective"
 },
@@ -2065,7 +2065,7 @@
 },
 {
 "word": "adânc",
-"pronunciation": "ah-DAHNK",
+"pronunciation": "ah-DUHNK",
 "definition": "deep",
 "partOfSpeech": "adjective"
 },
@@ -2077,7 +2077,7 @@
 },
 {
 "word": "îngust",
-"pronunciation": "een-GOOST",
+"pronunciation": "uhn-GOOST",
 "definition": "narrow",
 "partOfSpeech": "adjective"
 },
@@ -2137,7 +2137,7 @@
 },
 {
 "word": "întunecat",
-"pronunciation": "een-too-neh-KAHT",
+"pronunciation": "uhn-too-neh-KAHT",
 "definition": "dark; gloomy",
 "partOfSpeech": "adjective"
 },
@@ -2155,7 +2155,7 @@
 },
 {
 "word": "adevărat",
-"pronunciation": "ah-deh-vah-RAHT",
+"pronunciation": "ah-deh-vuh-RAHT",
 "definition": "true; real",
 "partOfSpeech": "adjective"
 },
@@ -2245,7 +2245,7 @@
 },
 {
 "word": "încă",
-"pronunciation": "een-KAH",
+"pronunciation": "UHN-kuh",
 "definition": "still; yet",
 "partOfSpeech": "adverb"
 },
@@ -2257,7 +2257,7 @@
 },
 {
 "word": "târziu",
-"pronunciation": "tahr-ZEE-oo",
+"pronunciation": "tuhr-ZEE-oo",
 "definition": "late",
 "partOfSpeech": "adverb"
 },
@@ -2317,7 +2317,7 @@
 },
 {
 "word": "cunoaște",
-"pronunciation": "koo-NWAHSH-teh",
+"pronunciation": "koo-NO-ahsh-teh",
 "definition": "to know (a person/place); to be familiar with",
 "partOfSpeech": "verb"
 },
@@ -2347,13 +2347,13 @@
 },
 {
 "word": "vrea",
-"pronunciation": "VRYAH",
+"pronunciation": "VRYA",
 "definition": "to want",
 "partOfSpeech": "verb"
 },
 {
 "word": "putea",
-"pronunciation": "poo-TYAH",
+"pronunciation": "poo-TYA",
 "definition": "to be able to; can",
 "partOfSpeech": "verb"
 },
@@ -2365,7 +2365,7 @@
 },
 {
 "word": "începe",
-"pronunciation": "een-CHEH-peh",
+"pronunciation": "uhn-CHEH-peh",
 "definition": "to begin; to start",
 "partOfSpeech": "verb"
 },
@@ -2395,7 +2395,7 @@
 },
 {
 "word": "rămâne",
-"pronunciation": "rah-MAH-neh",
+"pronunciation": "ruh-MUH-neh",
 "definition": "to stay; to remain",
 "partOfSpeech": "verb"
 },
@@ -2413,7 +2413,7 @@
 },
 {
 "word": "întoarce",
-"pronunciation": "een-TWAHR-cheh",
+"pronunciation": "uhn-TO-ahr-cheh",
 "definition": "to return; to turn around",
 "partOfSpeech": "verb"
 },
@@ -2425,7 +2425,7 @@
 },
 {
 "word": "coborî",
-"pronunciation": "koh-boh-REE",
+"pronunciation": "koh-boh-RUH",
 "definition": "to descend; to go down",
 "partOfSpeech": "verb"
 },
@@ -2443,13 +2443,13 @@
 },
 {
 "word": "hotărî",
-"pronunciation": "hoh-tah-REE",
+"pronunciation": "hoh-tuh-RUH",
 "definition": "to decide",
 "partOfSpeech": "verb"
 },
 {
 "word": "încerca",
-"pronunciation": "een-chehr-KAH",
+"pronunciation": "uhn-chehr-KAH",
 "definition": "to try; to attempt",
 "partOfSpeech": "verb"
 },
@@ -2497,13 +2497,13 @@
 },
 {
 "word": "strânge",
-"pronunciation": "STRAHN-jeh",
+"pronunciation": "STRUHN-jeh",
 "definition": "to gather; to collect",
 "partOfSpeech": "verb"
 },
 {
 "word": "împrăștia",
-"pronunciation": "eem-prahs-tee-AH",
+"pronunciation": "uhm-pruhsh-tee-AH",
 "definition": "to scatter; to spread",
 "partOfSpeech": "verb"
 },
@@ -2617,7 +2617,7 @@
 },
 {
 "word": "recunoaște",
-"pronunciation": "reh-koo-NWAHSH-teh",
+"pronunciation": "reh-koo-NO-ahsh-teh",
 "definition": "to recognize; to acknowledge",
 "partOfSpeech": "verb"
 },
@@ -2629,19 +2629,19 @@
 },
 {
 "word": "număra",
-"pronunciation": "noo-mah-RAH",
+"pronunciation": "noo-muh-RAH",
 "definition": "to count",
 "partOfSpeech": "verb"
 },
 {
 "word": "măsura",
-"pronunciation": "mah-soo-RAH",
+"pronunciation": "muh-soo-RAH",
 "definition": "to measure",
 "partOfSpeech": "verb"
 },
 {
 "word": "cântări",
-"pronunciation": "kahn-tah-REE",
+"pronunciation": "kuhn-tuh-REE",
 "definition": "to weigh",
 "partOfSpeech": "verb"
 },
@@ -2653,7 +2653,7 @@
 },
 {
 "word": "ploua",
-"pronunciation": "PLWAH",
+"pronunciation": "PLO-wah",
 "definition": "to rain (it's raining)",
 "partOfSpeech": "verb"
 },
@@ -2665,7 +2665,7 @@
 },
 {
 "word": "străluci",
-"pronunciation": "strah-loo-CHEE",
+"pronunciation": "struh-loo-CHEE",
 "definition": "to shine; to sparkle",
 "partOfSpeech": "verb"
 },
@@ -2695,31 +2695,31 @@
 },
 {
 "word": "slăbiciune",
-"pronunciation": "slah-bee-CHOO-neh",
+"pronunciation": "sluh-bee-CHOO-neh",
 "definition": "weakness",
 "partOfSpeech": "noun"
 },
 {
 "word": "credință",
-"pronunciation": "kreh-DEEN-tsah",
+"pronunciation": "kreh-DEEN-tsuh",
 "definition": "faith; belief",
 "partOfSpeech": "noun"
 },
 {
 "word": "îndoială",
-"pronunciation": "een-doh-YAH-lah",
+"pronunciation": "uhn-doh-YAH-luh",
 "definition": "doubt",
 "partOfSpeech": "noun"
 },
 {
 "word": "adevăr",
-"pronunciation": "ah-deh-VAHR",
+"pronunciation": "ah-deh-VUHR",
 "definition": "truth",
 "partOfSpeech": "noun"
 },
 {
 "word": "minciună",
-"pronunciation": "meen-CHOO-nah",
+"pronunciation": "meen-CHOO-nuh",
 "definition": "lie; falsehood",
 "partOfSpeech": "noun"
 },
@@ -2737,7 +2737,7 @@
 },
 {
 "word": "răzbunare",
-"pronunciation": "rahz-boo-NAH-reh",
+"pronunciation": "ruhz-boo-NAH-reh",
 "definition": "revenge; vengeance",
 "partOfSpeech": "noun"
 },
@@ -2749,7 +2749,7 @@
 },
 {
 "word": "recunoștință",
-"pronunciation": "reh-koo-nosh-TEEN-tsah",
+"pronunciation": "reh-koo-nohsh-TEEN-tsuh",
 "definition": "gratitude; thankfulness",
 "partOfSpeech": "noun"
 },
@@ -2779,7 +2779,7 @@
 },
 {
 "word": "milă",
-"pronunciation": "MEE-lah",
+"pronunciation": "MEE-luh",
 "definition": "pity; compassion",
 "partOfSpeech": "noun"
 },
@@ -2791,13 +2791,13 @@
 },
 {
 "word": "frică",
-"pronunciation": "FREE-kah",
+"pronunciation": "FREE-kuh",
 "definition": "fear",
 "partOfSpeech": "noun"
 },
 {
 "word": "groază",
-"pronunciation": "GRWAH-zah",
+"pronunciation": "GRO-ah-zuh",
 "definition": "horror; dread",
 "partOfSpeech": "noun"
 },
@@ -2851,7 +2851,7 @@
 },
 {
 "word": "război",
-"pronunciation": "rahz-BOY",
+"pronunciation": "ruhz-BOY",
 "definition": "war",
 "partOfSpeech": "noun"
 },
@@ -2863,7 +2863,7 @@
 },
 {
 "word": "înfrângere",
-"pronunciation": "een-frahn-JEH-reh",
+"pronunciation": "uhn-FRUHN-jeh-reh",
 "definition": "defeat",
 "partOfSpeech": "noun"
 },
@@ -2875,7 +2875,7 @@
 },
 {
 "word": "dușmănie",
-"pronunciation": "doosh-mah-NEE-eh",
+"pronunciation": "doosh-muh-NEE-eh",
 "definition": "enmity; hostility",
 "partOfSpeech": "noun"
 },
@@ -2899,7 +2899,7 @@
 },
 {
 "word": "întâmplare",
-"pronunciation": "een-tahm-PLAH-reh",
+"pronunciation": "uhn-tuhm-PLAH-reh",
 "definition": "coincidence; happening",
 "partOfSpeech": "noun"
 },
@@ -2929,13 +2929,13 @@
 },
 {
 "word": "cunoștință",
-"pronunciation": "koo-nosh-TEEN-tsah",
+"pronunciation": "koo-nohsh-TEEN-tsuh",
 "definition": "knowledge; acquaintance",
 "partOfSpeech": "noun"
 },
 {
 "word": "înțelepciune",
-"pronunciation": "een-teh-lep-CHOO-neh",
+"pronunciation": "uhn-tseh-lep-CHOO-neh",
 "definition": "wisdom",
 "partOfSpeech": "noun"
 },
@@ -2953,19 +2953,19 @@
 },
 {
 "word": "plictiseală",
-"pronunciation": "pleek-tee-SYAH-lah",
+"pronunciation": "pleek-tee-SHA-luh",
 "definition": "boredom",
 "partOfSpeech": "noun"
 },
 {
 "word": "oboseală",
-"pronunciation": "oh-boh-SYAH-lah",
+"pronunciation": "oh-boh-SHA-luh",
 "definition": "fatigue; tiredness",
 "partOfSpeech": "noun"
 },
 {
 "word": "odihnă",
-"pronunciation": "oh-DEEH-nah",
+"pronunciation": "oh-DEEH-nuh",
 "definition": "rest; repose",
 "partOfSpeech": "noun"
 },
@@ -2983,7 +2983,7 @@
 },
 {
 "word": "nădejde",
-"pronunciation": "nah-DEHZH-deh",
+"pronunciation": "nuh-DEZH-deh",
 "definition": "hope (literary/archaic); faith",
 "partOfSpeech": "noun"
 },
@@ -2995,25 +2995,25 @@
 },
 {
 "word": "leagăn",
-"pronunciation": "lyah-GAHN",
+"pronunciation": "lyah-GUHN",
 "definition": "cradle; swing",
 "partOfSpeech": "noun"
 },
 {
 "word": "jucărie",
-"pronunciation": "zhoo-kah-REE-eh",
+"pronunciation": "zhoo-kuh-REE-eh",
 "definition": "toy",
 "partOfSpeech": "noun"
 },
 {
 "word": "păpușă",
-"pronunciation": "pah-POO-shah",
+"pronunciation": "puh-POO-shuh",
 "definition": "doll",
 "partOfSpeech": "noun"
 },
 {
 "word": "poartă",
-"pronunciation": "PWAHR-tah",
+"pronunciation": "PO-ahr-tuh",
 "definition": "gate; goal (sports)",
 "partOfSpeech": "noun"
 },
@@ -3025,19 +3025,19 @@
 },
 {
 "word": "grădină",
-"pronunciation": "grah-DEE-nah",
+"pronunciation": "gruh-DEE-nuh",
 "definition": "garden",
 "partOfSpeech": "noun"
 },
 {
 "word": "livadă",
-"pronunciation": "lee-VAH-dah",
+"pronunciation": "lee-VAH-duh",
 "definition": "orchard",
 "partOfSpeech": "noun"
 },
 {
 "word": "câmp",
-"pronunciation": "KAHMP",
+"pronunciation": "KUHMP",
 "definition": "field (agricultural)",
 "partOfSpeech": "noun"
 },
@@ -3061,7 +3061,7 @@
 },
 {
 "word": "fântână",
-"pronunciation": "fahn-TAH-nah",
+"pronunciation": "fuhn-TUH-nuh",
 "definition": "well (water); fountain",
 "partOfSpeech": "noun"
 },
@@ -3079,13 +3079,13 @@
 },
 {
 "word": "cărare",
-"pronunciation": "kah-RAH-reh",
+"pronunciation": "kuh-RAH-reh",
 "definition": "trail; footpath",
 "partOfSpeech": "noun"
 },
 {
 "word": "răscruce",
-"pronunciation": "rahs-KROO-cheh",
+"pronunciation": "ruhs-KROO-cheh",
 "definition": "crossroads",
 "partOfSpeech": "noun"
 },
@@ -3097,25 +3097,25 @@
 },
 {
 "word": "colț",
-"pronunciation": "KOHLT",
+"pronunciation": "KOLTS",
 "definition": "corner; fang",
 "partOfSpeech": "noun"
 },
 {
 "word": "piață",
-"pronunciation": "pee-AH-tsah",
+"pronunciation": "pee-AH-tsuh",
 "definition": "market; square (town)",
 "partOfSpeech": "noun"
 },
 {
 "word": "biserică",
-"pronunciation": "bee-SEH-ree-kah",
+"pronunciation": "bee-SEH-ree-kuh",
 "definition": "church",
 "partOfSpeech": "noun"
 },
 {
 "word": "școală",
-"pronunciation": "SHQWAH-lah",
+"pronunciation": "SHKO-ah-luh",
 "definition": "school",
 "partOfSpeech": "noun"
 },
@@ -3127,13 +3127,13 @@
 },
 {
 "word": "primărie",
-"pronunciation": "pree-mah-REE-eh",
+"pronunciation": "pree-muh-REE-eh",
 "definition": "city hall; town hall",
 "partOfSpeech": "noun"
 },
 {
 "word": "gară",
-"pronunciation": "GAH-rah",
+"pronunciation": "GAH-ruh",
 "definition": "train station",
 "partOfSpeech": "noun"
 },
@@ -3163,7 +3163,7 @@
 },
 {
 "word": "colibă",
-"pronunciation": "koh-LEE-bah",
+"pronunciation": "koh-LEE-buh",
 "definition": "hut; cabin",
 "partOfSpeech": "noun"
 },
@@ -3175,7 +3175,7 @@
 },
 {
 "word": "moară",
-"pronunciation": "MWAH-rah",
+"pronunciation": "MO-ah-ruh",
 "definition": "mill (grain)",
 "partOfSpeech": "noun"
 },
@@ -3187,7 +3187,7 @@
 },
 {
 "word": "unealtă",
-"pronunciation": "oo-NYAHL-tah",
+"pronunciation": "oo-NYAHL-tuh",
 "definition": "tool; instrument",
 "partOfSpeech": "noun"
 },
@@ -3199,19 +3199,19 @@
 },
 {
 "word": "ață",
-"pronunciation": "AH-tah",
+"pronunciation": "AH-tsuh",
 "definition": "thread",
 "partOfSpeech": "noun"
 },
 {
 "word": "țesătură",
-"pronunciation": "teh-sah-TOO-rah",
+"pronunciation": "tseh-suh-TOO-ruh",
 "definition": "fabric; textile",
 "partOfSpeech": "noun"
 },
 {
 "word": "lână",
-"pronunciation": "LAH-nah",
+"pronunciation": "LUH-nuh",
 "definition": "wool",
 "partOfSpeech": "noun"
 },
@@ -3241,7 +3241,7 @@
 },
 {
 "word": "piatră",
-"pronunciation": "pee-AH-trah",
+"pronunciation": "pee-AH-truh",
 "definition": "stone",
 "partOfSpeech": "noun"
 },
@@ -3265,7 +3265,7 @@
 },
 {
 "word": "sticlă",
-"pronunciation": "STEEK-lah",
+"pronunciation": "STEEK-luh",
 "definition": "glass; bottle",
 "partOfSpeech": "noun"
 },
@@ -3283,7 +3283,7 @@
 },
 {
 "word": "plâns",
-"pronunciation": "PLAHNS",
+"pronunciation": "PLUHNS",
 "definition": "cry; weeping",
 "partOfSpeech": "noun"
 },
@@ -3301,7 +3301,7 @@
 },
 {
 "word": "țipăt",
-"pronunciation": "tsee-PAHT",
+"pronunciation": "TSEE-puht",
 "definition": "scream; shout",
 "partOfSpeech": "noun"
 },
@@ -3313,25 +3313,25 @@
 },
 {
 "word": "tăciune",
-"pronunciation": "tah-CHOO-neh",
+"pronunciation": "tuh-CHOO-neh",
 "definition": "ember; charcoal",
 "partOfSpeech": "noun"
 },
 {
 "word": "scânteia",
-"pronunciation": "skahn-TAY-ah",
+"pronunciation": "skuhn-TAY-ah",
 "definition": "spark",
 "partOfSpeech": "noun"
 },
 {
 "word": "flacără",
-"pronunciation": "FLAH-kah-rah",
+"pronunciation": "FLAH-kuh-ruh",
 "definition": "flame",
 "partOfSpeech": "noun"
 },
 {
 "word": "cenușă",
-"pronunciation": "cheh-NOO-shah",
+"pronunciation": "cheh-NOO-shuh",
 "definition": "ash; ashes",
 "partOfSpeech": "noun"
 },
@@ -3349,13 +3349,13 @@
 },
 {
 "word": "bulă",
-"pronunciation": "BOO-lah",
+"pronunciation": "BOO-luh",
 "definition": "bubble",
 "partOfSpeech": "noun"
 },
 {
 "word": "picătură",
-"pronunciation": "pee-kah-TOO-rah",
+"pronunciation": "pee-kuh-TOO-ruh",
 "definition": "drop (of liquid)",
 "partOfSpeech": "noun"
 },
@@ -3379,13 +3379,13 @@
 },
 {
 "word": "lanț",
-"pronunciation": "LAHNT",
+"pronunciation": "LAHNTS",
 "definition": "chain",
 "partOfSpeech": "noun"
 },
 {
 "word": "rețea",
-"pronunciation": "reh-TSYAH",
+"pronunciation": "reh-TSYA",
 "definition": "network; web",
 "partOfSpeech": "noun"
 },
@@ -3409,25 +3409,25 @@
 },
 {
 "word": "țărm",
-"pronunciation": "TAHRM",
+"pronunciation": "TSUH-rm",
 "definition": "shore; coast",
 "partOfSpeech": "noun"
 },
 {
 "word": "adâncime",
-"pronunciation": "ah-dahn-CHEE-meh",
+"pronunciation": "ah-duhn-CHEE-meh",
 "definition": "depth",
 "partOfSpeech": "noun"
 },
 {
 "word": "înălțime",
-"pronunciation": "ee-nahl-TSEE-meh",
+"pronunciation": "uh-nuhl-TSEE-meh",
 "definition": "height",
 "partOfSpeech": "noun"
 },
 {
 "word": "lățime",
-"pronunciation": "lah-TSEE-meh",
+"pronunciation": "luh-TSEE-meh",
 "definition": "width",
 "partOfSpeech": "noun"
 },
@@ -3451,7 +3451,7 @@
 },
 {
 "word": "săritură",
-"pronunciation": "sah-ree-TOO-rah",
+"pronunciation": "suh-ree-TOO-ruh",
 "definition": "jump; leap",
 "partOfSpeech": "noun"
 },
@@ -3469,13 +3469,13 @@
 },
 {
 "word": "călătorie",
-"pronunciation": "kah-lah-toh-REE-eh",
+"pronunciation": "kuh-luh-toh-REE-eh",
 "definition": "journey; trip",
 "partOfSpeech": "noun"
 },
 {
 "word": "aventură",
-"pronunciation": "ah-vehn-TOO-rah",
+"pronunciation": "ah-vehn-TOO-ruh",
 "definition": "adventure",
 "partOfSpeech": "noun"
 },
@@ -3487,13 +3487,13 @@
 },
 {
 "word": "încercare",
-"pronunciation": "een-chehr-KAH-reh",
+"pronunciation": "uhn-chehr-KAH-reh",
 "definition": "attempt; trial",
 "partOfSpeech": "noun"
 },
 {
 "word": "reușită",
-"pronunciation": "reh-oo-SHEE-tah",
+"pronunciation": "reh-oo-SHEE-tuh",
 "definition": "success; achievement",
 "partOfSpeech": "noun"
 },
@@ -3505,7 +3505,7 @@
 },
 {
 "word": "greșeală",
-"pronunciation": "greh-SHAH-lah",
+"pronunciation": "greh-SHA-luh",
 "definition": "mistake; error",
 "partOfSpeech": "noun"
 },
@@ -3523,7 +3523,7 @@
 },
 {
 "word": "rugăminte",
-"pronunciation": "roo-gah-MEEN-teh",
+"pronunciation": "roo-guh-MEEN-teh",
 "definition": "request; plea",
 "partOfSpeech": "noun"
 },
@@ -3535,7 +3535,7 @@
 },
 {
 "word": "binecuvântare",
-"pronunciation": "bee-neh-koo-vahn-TAH-reh",
+"pronunciation": "bee-neh-koo-vuhn-TAH-reh",
 "definition": "blessing",
 "partOfSpeech": "noun"
 },
@@ -3565,7 +3565,7 @@
 },
 {
 "word": "datină",
-"pronunciation": "DAH-tee-nah",
+"pronunciation": "DAH-tee-nuh",
 "definition": "tradition; ancestral custom",
 "partOfSpeech": "noun"
 },
@@ -3577,7 +3577,7 @@
 },
 {
 "word": "nuntă",
-"pronunciation": "NOON-tah",
+"pronunciation": "NOON-tuh",
 "definition": "wedding",
 "partOfSpeech": "noun"
 },
@@ -3589,7 +3589,7 @@
 },
 {
 "word": "înmormântare",
-"pronunciation": "een-mohr-mahn-TAH-reh",
+"pronunciation": "uhn-mohr-muhn-TAH-reh",
 "definition": "funeral; burial",
 "partOfSpeech": "noun"
 },
@@ -3601,7 +3601,7 @@
 },
 {
 "word": "sărbătoare",
-"pronunciation": "sahr-bah-TWAH-reh",
+"pronunciation": "suhr-buh-TO-ah-reh",
 "definition": "holiday; celebration",
 "partOfSpeech": "noun"
 },
@@ -3613,7 +3613,7 @@
 },
 {
 "word": "surpriză",
-"pronunciation": "soor-PREE-zah",
+"pronunciation": "soor-PREE-zuh",
 "definition": "surprise",
 "partOfSpeech": "noun"
 },
@@ -3625,13 +3625,13 @@
 },
 {
 "word": "cunună",
-"pronunciation": "koo-NOO-nah",
+"pronunciation": "koo-NOO-nuh",
 "definition": "wreath; wedding crown",
 "partOfSpeech": "noun"
 },
 {
 "word": "mireasă",
-"pronunciation": "mee-RYAH-sah",
+"pronunciation": "mee-RYA-suh",
 "definition": "bride",
 "partOfSpeech": "noun"
 },
@@ -3655,7 +3655,7 @@
 },
 {
 "word": "poftă",
-"pronunciation": "POHF-tah",
+"pronunciation": "POHF-tuh",
 "definition": "appetite; craving",
 "partOfSpeech": "noun"
 },
@@ -3673,13 +3673,13 @@
 },
 {
 "word": "sănătate",
-"pronunciation": "sah-nah-TAH-teh",
+"pronunciation": "suh-nuh-TAH-teh",
 "definition": "health; also a toast",
 "partOfSpeech": "noun"
 },
 {
 "word": "boală",
-"pronunciation": "BWAH-lah",
+"pronunciation": "BO-ah-luh",
 "definition": "illness; disease",
 "partOfSpeech": "noun"
 },
@@ -3691,7 +3691,7 @@
 },
 {
 "word": "rană",
-"pronunciation": "RAH-nah",
+"pronunciation": "RAH-nuh",
 "definition": "wound",
 "partOfSpeech": "noun"
 },
@@ -3709,13 +3709,13 @@
 },
 {
 "word": "lacrimă",
-"pronunciation": "LAH-kree-mah",
+"pronunciation": "LAH-kree-muh",
 "definition": "tear (from eye)",
 "partOfSpeech": "noun"
 },
 {
 "word": "sânge",
-"pronunciation": "SAHN-jeh",
+"pronunciation": "SUHN-jeh",
 "definition": "blood",
 "partOfSpeech": "noun"
 },
@@ -3739,7 +3739,7 @@
 },
 {
 "word": "umăr",
-"pronunciation": "OO-mahr",
+"pronunciation": "OO-muhr",
 "definition": "shoulder",
 "partOfSpeech": "noun"
 },
@@ -3751,7 +3751,7 @@
 },
 {
 "word": "mână",
-"pronunciation": "MAH-nah",
+"pronunciation": "MUH-nuh",
 "definition": "hand",
 "partOfSpeech": "noun"
 },
@@ -3775,7 +3775,7 @@
 },
 {
 "word": "călcâi",
-"pronunciation": "kahl-KAH-ee",
+"pronunciation": "kuhl-KUH-ee",
 "definition": "heel",
 "partOfSpeech": "noun"
 },
@@ -3799,25 +3799,25 @@
 },
 {
 "word": "bărbie",
-"pronunciation": "BAHR-bee-eh",
+"pronunciation": "BUHR-bee-eh",
 "definition": "chin",
 "partOfSpeech": "noun"
 },
 {
 "word": "gât",
-"pronunciation": "GAHT",
+"pronunciation": "GUHT",
 "definition": "neck; throat",
 "partOfSpeech": "noun"
 },
 {
 "word": "buză",
-"pronunciation": "BOO-zah",
+"pronunciation": "BOO-zuh",
 "definition": "lip",
 "partOfSpeech": "noun"
 },
 {
 "word": "limbă",
-"pronunciation": "LEEM-bah",
+"pronunciation": "LEEM-buh",
 "definition": "tongue; language",
 "partOfSpeech": "noun"
 },
@@ -3829,19 +3829,19 @@
 },
 {
 "word": "păr",
-"pronunciation": "PAHR",
+"pronunciation": "PUHR",
 "definition": "hair",
 "partOfSpeech": "noun"
 },
 {
 "word": "sprânceană",
-"pronunciation": "sprahn-CHAH-nah",
+"pronunciation": "spruhn-CHA-nuh",
 "definition": "eyebrow",
 "partOfSpeech": "noun"
 },
 {
 "word": "geană",
-"pronunciation": "JAH-nah",
+"pronunciation": "JA-nuh",
 "definition": "eyelash",
 "partOfSpeech": "noun"
 },
@@ -3859,7 +3859,7 @@
 },
 {
 "word": "gură",
-"pronunciation": "GOO-rah",
+"pronunciation": "GOO-ruh",
 "definition": "mouth",
 "partOfSpeech": "noun"
 },
@@ -3877,7 +3877,7 @@
 },
 {
 "word": "bătăi",
-"pronunciation": "bah-TAH-ee",
+"pronunciation": "buh-TUH-ee",
 "definition": "heartbeats; also hits",
 "partOfSpeech": "noun"
 },
@@ -3889,19 +3889,19 @@
 },
 {
 "word": "ființă",
-"pronunciation": "fee-EEN-tsah",
+"pronunciation": "fee-EEN-tsuh",
 "definition": "being; creature",
 "partOfSpeech": "noun"
 },
 {
 "word": "zână",
-"pronunciation": "ZAH-nah",
+"pronunciation": "ZUH-nuh",
 "definition": "fairy",
 "partOfSpeech": "noun"
 },
 {
 "word": "vrăjitoare",
-"pronunciation": "vrah-zhee-TWAH-reh",
+"pronunciation": "vruh-zhee-TO-ah-reh",
 "definition": "witch",
 "partOfSpeech": "noun"
 },
@@ -3931,7 +3931,7 @@
 },
 {
 "word": "legendă",
-"pronunciation": "leh-JEN-dah",
+"pronunciation": "leh-JEN-duh",
 "definition": "legend",
 "partOfSpeech": "noun"
 },
@@ -3955,7 +3955,7 @@
 },
 {
 "word": "războinic",
-"pronunciation": "rahz-boy-NEEK",
+"pronunciation": "ruhz-boy-NEEK",
 "definition": "warrior; fighter",
 "partOfSpeech": "noun"
 },
@@ -3967,7 +3967,7 @@
 },
 {
 "word": "regină",
-"pronunciation": "reh-JEE-nah",
+"pronunciation": "reh-JEE-nuh",
 "definition": "queen",
 "partOfSpeech": "noun"
 },
@@ -3979,13 +3979,13 @@
 },
 {
 "word": "prințesă",
-"pronunciation": "preen-TSEH-sah",
+"pronunciation": "preen-TSEH-suh",
 "definition": "princess",
 "partOfSpeech": "noun"
 },
 {
 "word": "comoară",
-"pronunciation": "koh-MWAH-rah",
+"pronunciation": "koh-MO-ah-ruh",
 "definition": "treasure",
 "partOfSpeech": "noun"
 },
@@ -4003,7 +4003,7 @@
 },
 {
 "word": "armură",
-"pronunciation": "ahr-MOO-rah",
+"pronunciation": "ahr-MOO-ruh",
 "definition": "armor",
 "partOfSpeech": "noun"
 },
@@ -4027,25 +4027,25 @@
 },
 {
 "word": "despărțire",
-"pronunciation": "dehs-pahr-TSEE-reh",
+"pronunciation": "dehs-puhr-TSEE-reh",
 "definition": "separation; parting",
 "partOfSpeech": "noun"
 },
 {
 "word": "întâlnire",
-"pronunciation": "een-tahl-NEE-reh",
+"pronunciation": "uhn-tuhl-NEE-reh",
 "definition": "meeting; encounter; date",
 "partOfSpeech": "noun"
 },
 {
 "word": "îmbrățișare",
-"pronunciation": "eem-brah-tee-SHAH-reh",
+"pronunciation": "uhm-bruh-tsee-SHAH-reh",
 "definition": "hug; embrace",
 "partOfSpeech": "noun"
 },
 {
 "word": "mângâiere",
-"pronunciation": "mahn-gah-YEH-reh",
+"pronunciation": "muhn-guh-YEH-reh",
 "definition": "caress; comfort",
 "partOfSpeech": "noun"
 },
@@ -4069,7 +4069,7 @@
 },
 {
 "word": "copilărie",
-"pronunciation": "koh-pee-lah-REE-eh",
+"pronunciation": "koh-pee-luh-REE-eh",
 "definition": "childhood",
 "partOfSpeech": "noun"
 },
@@ -4081,7 +4081,7 @@
 },
 {
 "word": "bătrânețe",
-"pronunciation": "bah-trah-NEH-tseh",
+"pronunciation": "buh-truh-NEH-tseh",
 "definition": "old age",
 "partOfSpeech": "noun"
 },
@@ -4093,43 +4093,43 @@
 },
 {
 "word": "clipă",
-"pronunciation": "KLEE-pah",
+"pronunciation": "KLEE-puh",
 "definition": "moment; instant",
 "partOfSpeech": "noun"
 },
 {
 "word": "secundă",
-"pronunciation": "seh-KOON-dah",
+"pronunciation": "seh-KOON-duh",
 "definition": "second (of time)",
 "partOfSpeech": "noun"
 },
 {
 "word": "oră",
-"pronunciation": "OH-rah",
+"pronunciation": "OH-ruh",
 "definition": "hour",
 "partOfSpeech": "noun"
 },
 {
 "word": "săptămână",
-"pronunciation": "sahp-tah-MAH-nah",
+"pronunciation": "suhp-tuh-MUH-nuh",
 "definition": "week",
 "partOfSpeech": "noun"
 },
 {
 "word": "răsplată",
-"pronunciation": "rahs-PLAH-tah",
+"pronunciation": "ruhs-PLAH-tuh",
 "definition": "reward; repayment",
 "partOfSpeech": "noun"
 },
 {
 "word": "pedeapsă",
-"pronunciation": "peh-DYAHP-sah",
+"pronunciation": "peh-DYAHP-suh",
 "definition": "punishment",
 "partOfSpeech": "noun"
 },
 {
 "word": "regulă",
-"pronunciation": "REH-goo-lah",
+"pronunciation": "REH-goo-luh",
 "definition": "rule",
 "partOfSpeech": "noun"
 },
@@ -4141,7 +4141,7 @@
 },
 {
 "word": "judecată",
-"pronunciation": "zhoo-deh-KAH-tah",
+"pronunciation": "zhoo-deh-KAH-tuh",
 "definition": "judgment",
 "partOfSpeech": "noun"
 },
@@ -4153,7 +4153,7 @@
 },
 {
 "word": "dorință",
-"pronunciation": "doh-REEN-tsah",
+"pronunciation": "doh-REEN-tsuh",
 "definition": "wish; desire",
 "partOfSpeech": "noun"
 },
@@ -4165,55 +4165,55 @@
 },
 {
 "word": "lipsă",
-"pronunciation": "LEEP-sah",
+"pronunciation": "LEEP-suh",
 "definition": "absence; lack",
 "partOfSpeech": "noun"
 },
 {
 "word": "belșug",
-"pronunciation": "bel-SHOOG",
+"pronunciation": "BEL-shoog",
 "definition": "abundance; plenty",
 "partOfSpeech": "noun"
 },
 {
 "word": "sărăcie",
-"pronunciation": "sah-rah-CHEE-eh",
+"pronunciation": "suh-ruh-CHEE-eh",
 "definition": "poverty",
 "partOfSpeech": "noun"
 },
 {
 "word": "bogăție",
-"pronunciation": "boh-gah-TSEE-eh",
+"pronunciation": "boh-guh-TSEE-eh",
 "definition": "wealth; riches",
 "partOfSpeech": "noun"
 },
 {
 "word": "muncă",
-"pronunciation": "MOON-kah",
+"pronunciation": "MOON-kuh",
 "definition": "work; labor",
 "partOfSpeech": "noun"
 },
 {
 "word": "joacă",
-"pronunciation": "ZHWAH-kah",
+"pronunciation": "JO-ah-kuh",
 "definition": "play; game (childish)",
 "partOfSpeech": "noun"
 },
 {
 "word": "glumă",
-"pronunciation": "GLOO-mah",
+"pronunciation": "GLOO-muh",
 "definition": "joke",
 "partOfSpeech": "noun"
 },
 {
 "word": "poantă",
-"pronunciation": "PWAHN-tah",
+"pronunciation": "PO-ahn-tuh",
 "definition": "punchline; point (of joke)",
 "partOfSpeech": "noun"
 },
 {
 "word": "zâmbet",
-"pronunciation": "ZAHM-bet",
+"pronunciation": "ZUHM-bet",
 "definition": "smile",
 "partOfSpeech": "noun"
 },
@@ -4279,7 +4279,7 @@
 },
 {
 "word": "rimă",
-"pronunciation": "REE-mah",
+"pronunciation": "REE-muh",
 "definition": "rhyme",
 "partOfSpeech": "noun"
 },
@@ -4297,7 +4297,7 @@
 },
 {
 "word": "sculptură",
-"pronunciation": "skoolp-TOO-rah",
+"pronunciation": "skoolp-TOO-ruh",
 "definition": "sculpture",
 "partOfSpeech": "noun"
 },
@@ -4339,7 +4339,7 @@
 },
 {
 "word": "vânător",
-"pronunciation": "vah-nah-TOHR",
+"pronunciation": "vuh-nuh-TOHR",
 "definition": "hunter",
 "partOfSpeech": "noun"
 },
@@ -4351,19 +4351,19 @@
 },
 {
 "word": "învățător",
-"pronunciation": "een-vah-tsah-TOHR",
+"pronunciation": "uhn-vuh-tsuh-TOHR",
 "definition": "teacher (primary school)",
 "partOfSpeech": "noun"
 },
 {
 "word": "vindecător",
-"pronunciation": "veen-deh-kah-TOHR",
+"pronunciation": "veen-deh-kuh-TOHR",
 "definition": "healer",
 "partOfSpeech": "noun"
 },
 {
 "word": "călător",
-"pronunciation": "kah-lah-TOHR",
+"pronunciation": "kuh-luh-TOHR",
 "definition": "traveler",
 "partOfSpeech": "noun"
 },
@@ -4387,7 +4387,7 @@
 },
 {
 "word": "rugăciune",
-"pronunciation": "roo-gah-CHOO-neh",
+"pronunciation": "roo-guh-CHOO-neh",
 "definition": "prayer",
 "partOfSpeech": "noun"
 },
@@ -4399,7 +4399,7 @@
 },
 {
 "word": "enigmă",
-"pronunciation": "eh-NEEG-mah",
+"pronunciation": "eh-NEEG-muh",
 "definition": "enigma; riddle",
 "partOfSpeech": "noun"
 },
@@ -4411,13 +4411,13 @@
 },
 {
 "word": "răspuns",
-"pronunciation": "rahs-POONS",
+"pronunciation": "ruhs-POONS",
 "definition": "answer; response",
 "partOfSpeech": "noun"
 },
 {
 "word": "întrebare",
-"pronunciation": "een-treh-BAH-reh",
+"pronunciation": "uhn-treh-BAH-reh",
 "definition": "question",
 "partOfSpeech": "noun"
 },
@@ -4429,43 +4429,43 @@
 },
 {
 "word": "înțelegere",
-"pronunciation": "een-tseh-LEH-jeh-reh",
+"pronunciation": "uhn-tseh-LEH-jeh-reh",
 "definition": "understanding; agreement",
 "partOfSpeech": "noun"
 },
 {
 "word": "neînțelegere",
-"pronunciation": "neh-een-tseh-LEH-jeh-reh",
+"pronunciation": "neh-uhn-tseh-LEH-jeh-reh",
 "definition": "misunderstanding",
 "partOfSpeech": "noun"
 },
 {
 "word": "ceartă",
-"pronunciation": "CHAHR-tah",
+"pronunciation": "CHAR-tuh",
 "definition": "quarrel; argument",
 "partOfSpeech": "noun"
 },
 {
 "word": "împăcare",
-"pronunciation": "eem-pah-KAH-reh",
+"pronunciation": "uhm-pah-KAH-reh",
 "definition": "reconciliation; making peace",
 "partOfSpeech": "noun"
 },
 {
 "word": "legământ",
-"pronunciation": "leh-gah-MAHNT",
+"pronunciation": "leh-guh-MUHNT",
 "definition": "covenant; vow",
 "partOfSpeech": "noun"
 },
 {
 "word": "făgăduință",
-"pronunciation": "fah-gah-doo-EEN-tsah",
+"pronunciation": "fuh-guh-doo-EEN-tsuh",
 "definition": "promise (solemn)",
 "partOfSpeech": "noun"
 },
 {
 "word": "trădare",
-"pronunciation": "trah-DAH-reh",
+"pronunciation": "truh-DAH-reh",
 "definition": "betrayal; treason",
 "partOfSpeech": "noun"
 },
@@ -4519,13 +4519,13 @@
 },
 {
 "word": "răbdare",
-"pronunciation": "rahb-DAH-reh",
+"pronunciation": "ruhb-DAH-reh",
 "definition": "patience",
 "partOfSpeech": "noun"
 },
 {
 "word": "nerăbdare",
-"pronunciation": "neh-rahb-DAH-reh",
+"pronunciation": "neh-ruhb-DAH-reh",
 "definition": "impatience",
 "partOfSpeech": "noun"
 },
@@ -4543,7 +4543,7 @@
 },
 {
 "word": "miazăzi",
-"pronunciation": "myah-zah-ZEE",
+"pronunciation": "myah-zuh-ZEE",
 "definition": "south (poetic); noon",
 "partOfSpeech": "noun"
 },
@@ -4573,19 +4573,19 @@
 },
 {
 "word": "treabă",
-"pronunciation": "TRYAH-bah",
+"pronunciation": "TRYAH-buh",
 "definition": "business; matter; task",
 "partOfSpeech": "noun"
 },
 {
 "word": "ispravă",
-"pronunciation": "ees-PRAH-vah",
+"pronunciation": "ees-PRAH-vuh",
 "definition": "deed; accomplishment; prank",
 "partOfSpeech": "noun"
 },
 {
 "word": "faptă",
-"pronunciation": "FAHP-tah",
+"pronunciation": "FAHP-tuh",
 "definition": "deed; act",
 "partOfSpeech": "noun"
 },
@@ -4603,13 +4603,13 @@
 },
 {
 "word": "urmă",
-"pronunciation": "OOR-mah",
+"pronunciation": "OOR-muh",
 "definition": "trace; footprint; consequence",
 "partOfSpeech": "noun"
 },
 {
 "word": "amprentă",
-"pronunciation": "ahm-PREN-tah",
+"pronunciation": "ahm-PREN-tuh",
 "definition": "fingerprint; imprint",
 "partOfSpeech": "noun"
 },
@@ -4621,7 +4621,7 @@
 },
 {
 "word": "rădăcini",
-"pronunciation": "rah-dah-CHEE-nee",
+"pronunciation": "ruh-duh-CHEE-nee",
 "definition": "roots (figurative); origins",
 "partOfSpeech": "noun"
 },
@@ -4651,7 +4651,7 @@
 },
 {
 "word": "țară",
-"pronunciation": "TSAH-rah",
+"pronunciation": "TSAH-ruh",
 "definition": "country",
 "partOfSpeech": "noun"
 },
@@ -4669,13 +4669,13 @@
 },
 {
 "word": "pământean",
-"pronunciation": "pah-mahn-teh-AHN",
+"pronunciation": "puh-muhn-teh-AHN",
 "definition": "earthling; human being",
 "partOfSpeech": "noun"
 },
 {
 "word": "strămoș",
-"pronunciation": "strah-MOHSH",
+"pronunciation": "struh-MOHSH",
 "definition": "ancestor",
 "partOfSpeech": "noun"
 },
@@ -4693,7 +4693,7 @@
 },
 {
 "word": "învinge",
-"pronunciation": "een-VEEN-jeh",
+"pronunciation": "uhn-VEEN-jeh",
 "definition": "to defeat; to conquer",
 "partOfSpeech": "verb"
 },
@@ -4717,7 +4717,7 @@
 },
 {
 "word": "înfrunta",
-"pronunciation": "een-froon-TAH",
+"pronunciation": "uhn-froon-TAH",
 "definition": "to confront; to face",
 "partOfSpeech": "verb"
 },
@@ -4741,49 +4741,49 @@
 },
 {
 "word": "înlătura",
-"pronunciation": "een-lah-too-RAH",
+"pronunciation": "uhn-luh-too-RAH",
 "definition": "to remove; to eliminate",
 "partOfSpeech": "verb"
 },
 {
 "word": "adăuga",
-"pronunciation": "ah-dah-oo-GAH",
+"pronunciation": "ah-duh-oo-GAH",
 "definition": "to add",
 "partOfSpeech": "verb"
 },
 {
 "word": "scădea",
-"pronunciation": "skah-DYAH",
+"pronunciation": "skuh-DYA",
 "definition": "to subtract; to decrease",
 "partOfSpeech": "verb"
 },
 {
 "word": "înmulți",
-"pronunciation": "een-mool-TSEE",
+"pronunciation": "uhn-mool-TSEE",
 "definition": "to multiply; to increase",
 "partOfSpeech": "verb"
 },
 {
 "word": "împărți",
-"pronunciation": "eem-pahr-TSEE",
+"pronunciation": "uhm-puhr-TSEE",
 "definition": "to divide; to share",
 "partOfSpeech": "verb"
 },
 {
 "word": "îndrepta",
-"pronunciation": "een-drep-TAH",
+"pronunciation": "uhn-drep-TAH",
 "definition": "to straighten; to head toward",
 "partOfSpeech": "verb"
 },
 {
 "word": "îndoi",
-"pronunciation": "een-doh-EE",
+"pronunciation": "uhn-DOH-ee",
 "definition": "to fold; to bend; to doubt",
 "partOfSpeech": "verb"
 },
 {
 "word": "răsturna",
-"pronunciation": "rahs-toor-NAH",
+"pronunciation": "ruhs-toor-NAH",
 "definition": "to overturn; to spill",
 "partOfSpeech": "verb"
 },
@@ -4795,13 +4795,13 @@
 },
 {
 "word": "dezvălui",
-"pronunciation": "dehz-vah-loo-EE",
+"pronunciation": "dehz-vuh-loo-EE",
 "definition": "to reveal; to uncover",
 "partOfSpeech": "verb"
 },
 {
 "word": "înfige",
-"pronunciation": "een-FEE-jeh",
+"pronunciation": "uhn-FEE-jeh",
 "definition": "to stick in; to pierce",
 "partOfSpeech": "verb"
 },
@@ -4813,7 +4813,7 @@
 },
 {
 "word": "înghiți",
-"pronunciation": "een-gee-TSEE",
+"pronunciation": "uhn-GEE-tsee",
 "definition": "to swallow",
 "partOfSpeech": "verb"
 },
@@ -4831,7 +4831,7 @@
 },
 {
 "word": "mușca",
-"pronunciation": "moos-KAH",
+"pronunciation": "moosh-KAH",
 "definition": "to bite",
 "partOfSpeech": "verb"
 },
@@ -4843,7 +4843,7 @@
 },
 {
 "word": "mângâia",
-"pronunciation": "mahn-gah-YAH",
+"pronunciation": "muhn-guh-YAH",
 "definition": "to caress; to pet",
 "partOfSpeech": "verb"
 },
@@ -4855,7 +4855,7 @@
 },
 {
 "word": "împinge",
-"pronunciation": "eem-PEEN-jeh",
+"pronunciation": "uhm-PEEN-jeh",
 "definition": "to push",
 "partOfSpeech": "verb"
 },
@@ -4879,7 +4879,7 @@
 },
 {
 "word": "scăpa",
-"pronunciation": "SKAH-pah",
+"pronunciation": "SKUH-pah",
 "definition": "to drop; to escape; to get rid of",
 "partOfSpeech": "verb"
 },
@@ -4933,13 +4933,13 @@
 },
 {
 "word": "legăna",
-"pronunciation": "leh-gah-NAH",
+"pronunciation": "leh-guh-NAH",
 "definition": "to rock; to swing",
 "partOfSpeech": "verb"
 },
 {
 "word": "învârti",
-"pronunciation": "een-vahr-TEE",
+"pronunciation": "uhn-vuhr-TEE",
 "definition": "to spin; to rotate",
 "partOfSpeech": "verb"
 },
@@ -4951,7 +4951,7 @@
 },
 {
 "word": "târî",
-"pronunciation": "tah-REE",
+"pronunciation": "tuh-RUH",
 "definition": "to drag; to crawl",
 "partOfSpeech": "verb"
 },
@@ -4993,13 +4993,13 @@
 },
 {
 "word": "căsca",
-"pronunciation": "kahs-KAH",
+"pronunciation": "kuhs-KAH",
 "definition": "to yawn; to open wide",
 "partOfSpeech": "verb"
 },
 {
 "word": "strănuta",
-"pronunciation": "strah-noo-TAH",
+"pronunciation": "struh-noo-TAH",
 "definition": "to sneeze",
 "partOfSpeech": "verb"
 },
@@ -5011,7 +5011,7 @@
 },
 {
 "word": "sughița",
-"pronunciation": "soo-gee-TSAH",
+"pronunciation": "soo-GEE-tsah",
 "definition": "to hiccup",
 "partOfSpeech": "verb"
 },
@@ -5022,26 +5022,26 @@
 "partOfSpeech": "verb"
 },
 {
-"word": "înghența",
-"pronunciation": "een-geh-TSAH",
+"word": "îngheta",
+"pronunciation": "uhn-geh-TSAH",
 "definition": "to freeze",
 "partOfSpeech": "verb"
 },
 {
 "word": "încălzi",
-"pronunciation": "een-kahl-ZEE",
+"pronunciation": "uhn-kuhl-ZEE",
 "definition": "to warm up; to heat",
 "partOfSpeech": "verb"
 },
 {
 "word": "înmuguri",
-"pronunciation": "een-moo-goo-REE",
+"pronunciation": "uhn-moo-goo-REE",
 "definition": "to bud; to sprout",
 "partOfSpeech": "verb"
 },
 {
 "word": "înflori",
-"pronunciation": "een-floh-REE",
+"pronunciation": "uhn-floh-REE",
 "definition": "to bloom; to flourish",
 "partOfSpeech": "verb"
 },
@@ -5071,7 +5071,7 @@
 },
 {
 "word": "semăna",
-"pronunciation": "seh-mah-NAH",
+"pronunciation": "seh-muh-NAH",
 "definition": "to sow (seeds); to resemble",
 "partOfSpeech": "verb"
 },
@@ -5095,7 +5095,7 @@
 },
 {
 "word": "săpa",
-"pronunciation": "SAH-pah",
+"pronunciation": "suh-PAH",
 "definition": "to dig",
 "partOfSpeech": "verb"
 },
@@ -5149,7 +5149,7 @@
 },
 {
 "word": "prăji",
-"pronunciation": "prah-ZHEE",
+"pronunciation": "pruh-ZHEE",
 "definition": "to fry",
 "partOfSpeech": "verb"
 },
@@ -5203,7 +5203,7 @@
 },
 {
 "word": "prăjit",
-"pronunciation": "prah-ZHEET",
+"pronunciation": "pruh-ZHEET",
 "definition": "fried",
 "partOfSpeech": "adjective"
 },
@@ -5227,19 +5227,19 @@
 },
 {
 "word": "călduros",
-"pronunciation": "kahl-doo-ROHS",
+"pronunciation": "kuhl-doo-ROHS",
 "definition": "warm; warm-hearted",
 "partOfSpeech": "adjective"
 },
 {
 "word": "răcoros",
-"pronunciation": "rah-koh-ROHS",
+"pronunciation": "ruh-koh-ROHS",
 "definition": "cool; refreshing",
 "partOfSpeech": "adjective"
 },
 {
 "word": "înghețat",
-"pronunciation": "een-geh-TSAHT",
+"pronunciation": "uhn-geh-TSAHT",
 "definition": "frozen",
 "partOfSpeech": "adjective"
 },
@@ -5311,7 +5311,7 @@
 },
 {
 "word": "pătrat",
-"pronunciation": "pah-TRAHT",
+"pronunciation": "puh-TRAHT",
 "definition": "square (shape)",
 "partOfSpeech": "adjective"
 },
@@ -5359,7 +5359,7 @@
 },
 {
 "word": "năprasnic",
-"pronunciation": "nah-PRAHS-neek",
+"pronunciation": "nuh-PRAHS-neek",
 "definition": "fierce; terrible; extreme",
 "partOfSpeech": "adjective"
 },
@@ -5383,13 +5383,13 @@
 },
 {
 "word": "isteț",
-"pronunciation": "ees-TEHT",
+"pronunciation": "ees-TEHTS",
 "definition": "clever; quick-witted",
 "partOfSpeech": "adjective"
 },
 {
 "word": "zăpăcit",
-"pronunciation": "zah-pah-CHEET",
+"pronunciation": "zuh-puh-CHEET",
 "definition": "confused; scatterbrained",
 "partOfSpeech": "adjective"
 },
@@ -5419,13 +5419,13 @@
 },
 {
 "word": "tăcut",
-"pronunciation": "tah-KOOT",
+"pronunciation": "tuh-KOOT",
 "definition": "silent; quiet (person)",
 "partOfSpeech": "adjective"
 },
 {
 "word": "vorbăreț",
-"pronunciation": "vohr-bah-REHT",
+"pronunciation": "vohr-buh-RETS",
 "definition": "talkative; chatty",
 "partOfSpeech": "adjective"
 },
@@ -5437,19 +5437,19 @@
 },
 {
 "word": "nepăsător",
-"pronunciation": "neh-pah-sah-TOHR",
+"pronunciation": "neh-puh-suh-TOHR",
 "definition": "indifferent; careless",
 "partOfSpeech": "adjective"
 },
 {
 "word": "recunoscător",
-"pronunciation": "reh-koo-nohs-kah-TOHR",
+"pronunciation": "reh-koo-nohs-kuh-TOHR",
 "definition": "grateful; thankful",
 "partOfSpeech": "adjective"
 },
 {
 "word": "nerecunoscător",
-"pronunciation": "neh-reh-koo-nohs-kah-TOHR",
+"pronunciation": "neh-reh-koo-nohs-kuh-TOHR",
 "definition": "ungrateful",
 "partOfSpeech": "adjective"
 },
@@ -5461,7 +5461,7 @@
 },
 {
 "word": "răutăcios",
-"pronunciation": "rah-oo-tah-CHOHS",
+"pronunciation": "ruh-oo-tuh-CHOHS",
 "definition": "malicious; spiteful",
 "partOfSpeech": "adjective"
 },
