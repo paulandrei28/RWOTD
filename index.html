@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#F2A7C3">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="RWOTD">
+    <meta name="description" content="Romanian Word of the Day - Learn a new Romanian word every day">
+    <title>RWOTD - Romanian Word of the Day</title>
+    <link rel="manifest" href="manifest.json">
+    <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+    <link rel="apple-touch-icon" href="icons/icon-192.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header class="app-header">
+            <h1 class="app-title">RWOTD</h1>
+            <p class="app-subtitle">Romanian Word of the Day</p>
+            <nav class="tabs">
+                <button class="tab active" data-view="main">Today</button>
+                <button class="tab" data-view="history">History</button>
+            </nav>
+        </header>
+
+        <main class="view active" id="view-main">
+            <div class="word-card" id="word-card">
+                <div class="card-empty" id="card-empty">
+                    <div class="flower-icon">&#10047;</div>
+                    <p>Ready for today's word?</p>
+                </div>
+                <div class="card-content hidden" id="card-content">
+                    <span class="pos-badge" id="word-pos"></span>
+                    <h2 class="word-romanian" id="word-romanian"></h2>
+                    <p class="word-pronunciation" id="word-pronunciation"></p>
+                    <p class="word-definition" id="word-definition"></p>
+                </div>
+            </div>
+
+            <button class="reveal-btn" id="reveal-btn">
+                <span class="btn-icon">&#10047;</span>
+                Get Today's Word
+            </button>
+
+            <div class="timer-section hidden" id="timer-section">
+                <p class="timer-label">Next word available in</p>
+                <div class="timer" id="timer">00:00:00</div>
+            </div>
+
+            <div class="exhausted-section hidden" id="exhausted-section">
+                <div class="flower-icon">&#10047;</div>
+                <p>You've learned all the words! Amazing!</p>
+                <button class="reset-btn" id="reset-btn">Start Over</button>
+            </div>
+        </main>
+
+        <main class="view" id="view-history">
+            <div class="history-container" id="history-container">
+                <div class="history-empty" id="history-empty">
+                    <div class="flower-icon">&#10047;</div>
+                    <p>No words yet. Come back after you reveal your first word!</p>
+                </div>
+                <div class="history-list" id="history-list"></div>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
