@@ -490,3 +490,88 @@ body {
 .view {
     animation: fadeIn 0.3s ease;
 }
+
+/* === Love Button (hidden in bottom-left) === */
+.love-btn {
+    position: fixed;
+    bottom: 18px;
+    left: 18px;
+    width: 36px;
+    height: 36px;
+    border: none;
+    border-radius: 50%;
+    background: linear-gradient(145deg, #e63946, #b5202d);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:
+        0 4px 6px rgba(0, 0, 0, 0.25),
+        inset 0 2px 3px rgba(255, 255, 255, 0.3),
+        inset 0 -2px 3px rgba(0, 0, 0, 0.2);
+    opacity: 0.45;
+    transition: opacity 0.3s, transform 0.15s, box-shadow 0.15s;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+}
+
+.love-btn:hover {
+    opacity: 0.85;
+}
+
+.love-btn:active {
+    transform: scale(0.88);
+    box-shadow:
+        0 2px 3px rgba(0, 0, 0, 0.3),
+        inset 0 1px 2px rgba(255, 255, 255, 0.2),
+        inset 0 -1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* === Love Stamps === */
+.stamps-container {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    overflow: hidden;
+}
+
+.love-stamp {
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #e63946;
+    opacity: 0;
+    text-shadow: 0 1px 2px rgba(230, 57, 70, 0.2);
+    animation: stampIn 0.4s ease forwards;
+    white-space: nowrap;
+}
+
+.love-stamp.removing {
+    animation: stampOut 0.3s ease forwards;
+}
+
+@keyframes stampIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3) rotate(var(--rot));
+    }
+    60% {
+        opacity: 1;
+        transform: scale(1.15) rotate(var(--rot));
+    }
+    100% {
+        opacity: 0.8;
+        transform: scale(1) rotate(var(--rot));
+    }
+}
+
+@keyframes stampOut {
+    to {
+        opacity: 0;
+        transform: scale(0.5) rotate(var(--rot));
+    }
+}

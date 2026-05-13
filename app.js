@@ -355,4 +355,39 @@
 
     // Start the app
     init();
+
+    // === Love Stamp Easter Egg ===
+    (function () {
+        var MAX_STAMPS = 5;
+        var stamps = [];
+        var btn = document.getElementById("love-btn");
+        var container = document.getElementById("stamps-container");
+        if (!btn || !container) return;
+
+        btn.addEventListener("click", function () {
+            // Random position (keep away from edges)
+            var x = 10 + Math.random() * 70; // % from left
+            var y = 10 + Math.random() * 70; // % from top
+            // Random rotation between -60 and +60
+            var rot = Math.floor(Math.random() * 121) - 60;
+
+            var el = document.createElement("span");
+            el.className = "love-stamp";
+            el.textContent = "Te iubesc";
+            el.style.left = x + "%";
+            el.style.top = y + "%";
+            el.style.setProperty("--rot", rot + "deg");
+            container.appendChild(el);
+            stamps.push(el);
+
+            // Remove oldest if over limit
+            if (stamps.length > MAX_STAMPS) {
+                var old = stamps.shift();
+                old.classList.add("removing");
+                setTimeout(function () {
+                    if (old.parentNode) old.parentNode.removeChild(old);
+                }, 300);
+            }
+        });
+    })();
 })();
