@@ -581,7 +581,7 @@
         "Another beautiful day to say, 'you reckon I can pronounce this?' \ud83c\udf3a",
         "Your word is ready, love - and so is my laughter \ud83d\udc90",
         "RWOTD time! Let's see if the final 'i' shows up today \ud83d\ude0f",
-        "My girl, so many days... but can you say ur\u0219i? \ud83d\udc3b",
+        "My girl, so many days... but can you say urși? \ud83d\udc3b",
         "A fresh Romanian word for the love of my life to completely reinvent \ud83d\udc95",
         "Nothing special... just another chance to defeat Romanian. Or be defeated by it \ud83c\udf38",
         "Hey love, your word of the day is here - pronunciation under investigation \ud83c\udf37",
@@ -592,7 +592,6 @@
         "Another day, another word standing between you and fluency \ud83d\udc90",
         "Hey love, this one might finally make peace with your tongue \ud83c\udf37",
         "Come collect your daily Romanian chaos, draga mea \ud83c\udf3a",
-        "My love, your word is here - no commitment issues for this girl, only pronunciation issues \ud83d\udc95",
         "RWOTD is waiting patiently, unlike me when you skip the last 'i' \ud83d\ude02",
         "Today's word has that special little sparkle... and probably some suffering \ud83c\udf38",
         "Hey beautiful, ready to sound adorable and slightly incorrect? \ud83c\udf37",
@@ -705,7 +704,6 @@
             "Îmi place totul la tine",
             "Vreau să îmbătrânim împreună",
             "Îmi place să te aud râzând",
-            "Ești cea mai bună parte din viața mea",
             "MA WAIF"
 ];
         var btn = document.getElementById("love-btn");
