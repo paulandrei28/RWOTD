@@ -52,6 +52,13 @@
         );
     }
 
+    function getDayDiff(dateStrA, dateStrB) {
+        // Calendar day difference (dateStrB - dateStrA) in days
+        var a = new Date(dateStrA + "T00:00:00");
+        var b = new Date(dateStrB + "T00:00:00");
+        return Math.round((b - a) / 86400000);
+    }
+
     function getMsUntilMidnight() {
         const now = new Date();
         const midnight = new Date(
@@ -149,6 +156,8 @@
         setStorage("rwotd_lastRevealDate", getTodayStr());
         setStorage("rwotd_todaysWord", wordObj);
         addToHistory(wordObj, getTodayStr());
+        updateStreak();
+        requestNotifPermission();
         displayWord(wordObj);
         disableButton();
         startTimer();
@@ -285,6 +294,47 @@
         });
     });
 
+    // ============ STREAK ============
+    function updateStreak() {
+        var streakDate = getStorage("rwotd_streakDate", "");
+        var streak = getStorage("rwotd_streak", 0);
+        var today = getTodayStr();
+
+        if (!streakDate) {
+            streak = 1;
+        } else {
+            var diff = getDayDiff(streakDate, today);
+            if (diff === 0) {
+                // Already counted today
+                return;
+            } else if (diff === 1) {
+                streak += 1;
+            } else {
+                // Missed days
+                streak = 1;
+            }
+        }
+        setStorage("rwotd_streak", streak);
+        setStorage("rwotd_streakDate", today);
+        displayStreak();
+    }
+
+    function checkStreakBroken() {
+        var streakDate = getStorage("rwotd_streakDate", "");
+        if (!streakDate) return;
+        var diff = getDayDiff(streakDate, getTodayStr());
+        if (diff > 1) {
+            setStorage("rwotd_streak", 0);
+            setStorage("rwotd_streakDate", "");
+        }
+    }
+
+    function displayStreak() {
+        var streak = getStorage("rwotd_streak", 0);
+        var el = document.getElementById("streak-count");
+        if (el) el.textContent = streak;
+    }
+
     // ============ RESET ============
     resetBtn.addEventListener("click", function () {
         if (
@@ -337,6 +387,69 @@
             cardEmpty.classList.remove("hidden");
             cardContent.classList.add("hidden");
         }
+
+        checkStreakBroken();
+        displayStreak();
+        setupNotifications();
+    }
+
+    // ============ NOTIFICATIONS ============
+    var notifMessages = [
+        "My love, time for RWOTD! \ud83c\udf38",
+        "New day, new RWOTD! \ud83d\udc95",
+        "A new Romanian word awaits you! \ud83c\udf37",
+        "Don't forget your word today, draga mea! \ud83c\udf3a",
+        "RWOTD time! Come learn something new \ud83d\udc90",
+    ];
+
+    function setupNotifications() {
+        if (!("Notification" in window)) return;
+        if (Notification.permission === "granted") {
+            scheduleNotification();
+        }
+    }
+
+    function requestNotifPermission() {
+        if (!("Notification" in window)) return;
+        if (Notification.permission === "default") {
+            Notification.requestPermission().then(function (perm) {
+                if (perm === "granted") {
+                    scheduleNotification();
+                }
+            });
+        }
+    }
+
+    function scheduleNotification() {
+        var now = new Date();
+        var target = new Date(
+            now.getFullYear(),
+            now.getMonth(),
+            now.getDate(),
+            22, 0, 0, 0
+        );
+        if (now >= target) {
+            // Already past 10 PM today, schedule for tomorrow
+            target.setDate(target.getDate() + 1);
+        }
+        var ms = target - now;
+        setTimeout(function () {
+            showReminder();
+            // Schedule next day
+            setTimeout(function () {
+                scheduleNotification();
+            }, 1000);
+        }, ms);
+    }
+
+    function showReminder() {
+        if (Notification.permission !== "granted") return;
+        if (hasRevealedToday()) return; // Already did today's word
+        var msg = notifMessages[Math.floor(Math.random() * notifMessages.length)];
+        new Notification("RWOTD", {
+            body: msg,
+            icon: "icons/icon-192.png",
+        });
     }
 
     // ============ SERVICE WORKER ============
@@ -360,27 +473,51 @@
     (function () {
         var MAX_STAMPS = 5;
         var stamps = [];
+        var phrases = [
+            "Te iubesc",
+            "Imi e dor de tine",
+            "Esti totul pentru mine",
+            "Imi esti draga",
+            "Te ador",
+            "Esti viata mea",
+            "Esti soarele meu",
+            "Te voi iubi mereu",
+            "Esti minunata",
+            "Inima mea e a ta",
+            "Esti cea mai frumoasa",
+            "Te iubesc nespus",
+        ];
         var btn = document.getElementById("love-btn");
         var container = document.getElementById("stamps-container");
         if (!btn || !container) return;
 
+        function getAvailablePhrase() {
+            var used = stamps.map(function (s) {
+                return s.dataset.phrase;
+            });
+            var available = phrases.filter(function (p) {
+                return used.indexOf(p) === -1;
+            });
+            if (available.length === 0) available = phrases;
+            return available[Math.floor(Math.random() * available.length)];
+        }
+
         btn.addEventListener("click", function () {
-            // Random position (keep away from edges)
-            var x = 10 + Math.random() * 70; // % from left
-            var y = 10 + Math.random() * 70; // % from top
-            // Random rotation between -60 and +60
+            var phrase = getAvailablePhrase();
+            var x = 10 + Math.random() * 70;
+            var y = 10 + Math.random() * 70;
             var rot = Math.floor(Math.random() * 121) - 60;
 
             var el = document.createElement("span");
             el.className = "love-stamp";
-            el.textContent = "Te iubesc";
+            el.textContent = phrase;
+            el.dataset.phrase = phrase;
             el.style.left = x + "%";
             el.style.top = y + "%";
             el.style.setProperty("--rot", rot + "deg");
             container.appendChild(el);
             stamps.push(el);
 
-            // Remove oldest if over limit
             if (stamps.length > MAX_STAMPS) {
                 var old = stamps.shift();
                 old.classList.add("removing");

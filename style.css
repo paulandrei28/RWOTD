@@ -58,6 +58,39 @@ body {
     margin-bottom: 32px;
 }
 
+.header-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.streak-badge {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--pink-light);
+    border-radius: 20px;
+    padding: 4px 10px;
+}
+
+.streak-fire {
+    font-size: 18px;
+    animation: fireGlow 1.5s ease-in-out infinite alternate;
+}
+
+.streak-count {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--text);
+}
+
+@keyframes fireGlow {
+    from { filter: brightness(1); }
+    to { filter: brightness(1.3); }
+}
+
 .app-title {
     font-size: 2.2rem;
     font-weight: 700;
