@@ -20,13 +20,7 @@
 <body>
     <div class="app">
         <header class="app-header">
-            <div class="header-top">
-                <h1 class="app-title">RWOTD</h1>
-                <div class="streak-badge" id="streak-badge">
-                    <span class="streak-fire">&#128293;</span>
-                    <span class="streak-count" id="streak-count">0</span>
-                </div>
-            </div>
+            <h1 class="app-title">RWOTD</h1>
             <p class="app-subtitle">Romanian Word of the Day</p>
             <nav class="tabs">
                 <button class="tab active" data-view="main">Today</button>
@@ -76,8 +70,19 @@
         </main>
     </div>
 
+    <div class="streak-badge" id="streak-badge">
+        <span class="streak-fire">&#128293;</span>
+        <span class="streak-count" id="streak-count">0</span>
+    </div>
     <button class="love-btn" id="love-btn" aria-label="Love">&#10084;</button>
     <div class="stamps-container" id="stamps-container"></div>
+    <div class="milestone-overlay hidden" id="milestone-overlay">
+        <div class="milestone-popup">
+            <div class="milestone-emoji" id="milestone-emoji"></div>
+            <div class="milestone-text" id="milestone-text"></div>
+            <button class="milestone-close" id="milestone-close">&#10084;</button>
+        </div>
+    </div>
     <script src="app.js"></script>
 </body>
 </html>

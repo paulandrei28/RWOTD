@@ -58,30 +58,28 @@ body {
     margin-bottom: 32px;
 }
 
-.header-top {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-}
-
 .streak-badge {
+    position: fixed;
+    bottom: 18px;
+    right: 18px;
     display: flex;
     align-items: center;
-    gap: 3px;
-    background: rgba(255, 255, 255, 0.7);
+    gap: 4px;
+    background: rgba(255, 255, 255, 0.85);
     border: 1px solid var(--pink-light);
     border-radius: 20px;
-    padding: 4px 10px;
+    padding: 6px 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 100;
 }
 
 .streak-fire {
-    font-size: 18px;
+    font-size: 20px;
     animation: fireGlow 1.5s ease-in-out infinite alternate;
 }
 
 .streak-count {
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 700;
     color: var(--text);
 }
@@ -581,6 +579,9 @@ body {
     text-shadow: 0 1px 2px rgba(230, 57, 70, 0.2);
     animation: stampIn 0.4s ease forwards;
     white-space: nowrap;
+    max-width: 70vw;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .love-stamp.removing {
@@ -607,4 +608,69 @@ body {
         opacity: 0;
         transform: scale(0.5) rotate(var(--rot));
     }
+}
+
+/* === Milestone Popup === */
+.milestone-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+.milestone-overlay.hidden {
+    display: none;
+}
+
+.milestone-popup {
+    background: var(--cream);
+    border-radius: 24px;
+    padding: 36px 28px;
+    max-width: 320px;
+    width: 85%;
+    text-align: center;
+    box-shadow: 0 12px 40px rgba(242, 167, 195, 0.4);
+    border: 2px solid var(--pink-light);
+    animation: popIn 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.milestone-emoji {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+.milestone-text {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.5;
+    margin-bottom: 20px;
+    white-space: pre-line;
+}
+
+.milestone-close {
+    background: linear-gradient(135deg, var(--pink), var(--pink-dark));
+    border: none;
+    color: white;
+    font-size: 18px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(242, 167, 195, 0.4);
+    transition: transform 0.15s;
+}
+
+.milestone-close:active {
+    transform: scale(0.9);
+}
+
+@keyframes popIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    100% { transform: scale(1); opacity: 1; }
 }

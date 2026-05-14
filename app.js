@@ -317,6 +317,7 @@
         setStorage("rwotd_streak", streak);
         setStorage("rwotd_streakDate", today);
         displayStreak();
+        checkMilestone(streak);
     }
 
     function checkStreakBroken() {
@@ -329,10 +330,175 @@
         }
     }
 
+    function migrateStreak() {
+        // If streakDate already set, no migration needed
+        if (getStorage("rwotd_streakDate", "")) return;
+        // Bootstrap streak from history for users who had words before this feature
+        var history = getHistory();
+        if (history.length === 0) return;
+        var today = getTodayStr();
+        // Sort dates descending (history is already newest-first)
+        var dates = [];
+        for (var i = 0; i < history.length; i++) {
+            var d = history[i].date;
+            if (dates.indexOf(d) === -1) dates.push(d);
+        }
+        // Count consecutive days backwards from most recent
+        var streak = 1;
+        for (var j = 0; j < dates.length - 1; j++) {
+            if (getDayDiff(dates[j + 1], dates[j]) === 1) {
+                streak++;
+            } else {
+                break;
+            }
+        }
+        // Only count if streak is still active (most recent date is today or yesterday)
+        var mostRecent = dates[0];
+        var diffToToday = getDayDiff(mostRecent, today);
+        if (diffToToday <= 1) {
+            setStorage("rwotd_streak", streak);
+            setStorage("rwotd_streakDate", mostRecent);
+        } else {
+            setStorage("rwotd_streak", 0);
+            setStorage("rwotd_streakDate", "");
+        }
+    }
+
     function displayStreak() {
         var streak = getStorage("rwotd_streak", 0);
         var el = document.getElementById("streak-count");
         if (el) el.textContent = streak;
+    }
+
+    // ============ MILESTONES ============
+    var milestoneTens = {
+        10: "Nothing special… just me falling for you a bit more every day.",
+        20: "You all right? Because I'm definitely not… I'm completely into you.",
+        30: "So many days… but can you say urși yet?",
+        40: "You bring warmth, chaos, and just the right amount of 'you reckon?' into my life.",
+        50: "Being with you feels like home… even when I say 'nothing special' and it's actually everything.",
+        60: "I admire you more every day—even your questionable Romanian 'i' skills.",
+        70: "You've become one of the most precious parts of my life… no commitment issues for this girl, clearly.",
+        80: "No matter what happens, my heart just goes 'yeah… her. definitely her.'",
+        90: "You make my life more beautiful… and a lot funnier than I expected.",
+    };
+
+    var milestoneHundreds = {
+        100: "100 days?! You reckon that's impressive? Because I do. A lot.",
+        200: "Your commitment to Romanian is legendary… pronunciation still under review though.",
+        300: "300 days of 'nothing special' that somehow mean absolutely everything to me.",
+        400: "Over a year?! You all right?? Because that's insane.",
+        500: "Half a thousand! At this point, even your 'shy i' is kind of perfect.",
+        600: "Your perseverance knows no bounds… unlike your ability to pronounce that last 'i'.",
+        700: "Nearly two years—no commitment issues, confirmed.",
+        800: "800 days of you being amazing… and me being completely gone for you.",
+        900: "So close to 1000… you reckon we just keep going forever?",
+        1000: "1000 days. Nothing special… just you being the best thing in my life. I love you so much.",
+    };
+
+    function checkMilestone(streak) {
+        // Special streak numbers
+        if (streak === 67) {
+            showMilestone("\ud83d\ude08\ud83d\udd22", "67676767676767676767");
+            return;
+        }
+        if (streak === 69) {
+            showMilestone("\ud83d\ude0f\ud83d\udd25", "69... Noice");
+            return;
+        }
+
+        if (streak <= 0 || streak % 10 !== 0) return;
+
+        var msg = null;
+        var emoji = null;
+
+        // Check hundreds first (100, 200, ... 1000)
+        if (streak % 100 === 0 && streak <= 1000) {
+            msg = milestoneHundreds[streak];
+            emoji = "\ud83c\udf1f\ud83d\udc96\ud83c\udf1f";
+            if (msg) {
+                showMilestone(emoji, msg);
+            }
+        } else if (streak % 10 === 0) {
+            // For 10-90, and cycling for 110-190, 210-290, etc.
+            var key = streak % 100;
+            msg = milestoneTens[key];
+            emoji = "\ud83d\udd25\ud83c\udf38";
+            if (msg) {
+                showMilestone(emoji, "My love for you is now " + streak + " times stronger!\n" + msg);
+            }
+        }
+    }
+
+    // ============ DATE POPUPS ============
+    function checkDatePopup() {
+        var now = new Date();
+        var day = now.getDate();
+        var month = now.getMonth() + 1; // 1-indexed
+        var shownKey = "rwotd_datePopup_" + now.getFullYear() + "-" + month + "-" + day;
+
+        // Don't show the same date popup twice in one day
+        if (getStorage(shownKey, false)) return;
+
+        var msg = null;
+        var emoji = null;
+
+        if (month === 5 && day === 12) {
+            // Birthday - May 12
+            msg = "Happy birthday, I love you so much!";
+            emoji = "\ud83c\udf82\ud83c\udf89\ud83d\udc96";
+        } else if (day === 3) {
+            // Anniversary - every 3rd of the month
+            msg = "Happy anniversary, my love!";
+            emoji = "\ud83d\udc95\ud83c\udf39\ud83d\udc8d";
+        }
+
+        if (msg) {
+            setStorage(shownKey, true);
+            showMilestone(emoji, msg);
+        }
+    }
+
+    // ============ MILESTONE QUEUE ============
+    var milestoneQueue = [];
+    var milestoneShowing = false;
+
+    function showMilestone(emoji, text) {
+        milestoneQueue.push({ emoji: emoji, text: text });
+        if (!milestoneShowing) {
+            showNextMilestone();
+        }
+    }
+
+    function showNextMilestone() {
+        if (milestoneQueue.length === 0) {
+            milestoneShowing = false;
+            return;
+        }
+        milestoneShowing = true;
+        var item = milestoneQueue.shift();
+
+        var overlay = document.getElementById("milestone-overlay");
+        var emojiEl = document.getElementById("milestone-emoji");
+        var textEl = document.getElementById("milestone-text");
+        var closeBtn = document.getElementById("milestone-close");
+        if (!overlay) return;
+
+        emojiEl.textContent = item.emoji;
+        textEl.textContent = item.text;
+        overlay.classList.remove("hidden");
+
+        function close() {
+            overlay.classList.add("hidden");
+            closeBtn.removeEventListener("click", close);
+            overlay.removeEventListener("click", handleOverlayClick);
+            showNextMilestone();
+        }
+        function handleOverlayClick(e) {
+            if (e.target === overlay) close();
+        }
+        closeBtn.addEventListener("click", close);
+        overlay.addEventListener("click", handleOverlayClick);
     }
 
     // ============ RESET ============
@@ -389,7 +555,9 @@
         }
 
         checkStreakBroken();
+        migrateStreak();
         displayStreak();
+        checkDatePopup();
         setupNotifications();
     }
 
@@ -400,6 +568,36 @@
         "A new Romanian word awaits you! \ud83c\udf37",
         "Don't forget your word today, draga mea! \ud83c\udf3a",
         "RWOTD time! Come learn something new \ud83d\udc90",
+        "Hey love, your word is waiting for you! \ud83d\udc95",
+        "Nothing special... just your Romanian word waiting to humble you \ud83c\udf38",
+        "You all right? Because today's word is ready for battle \ud83d\udc95",
+        "RWOTD time, my love - let's see what happens to that shy little 'i' today \ud83c\udf37",
+        "Another day, another Romanian word you can almost pronounce \ud83c\udf3a",
+        "Come on love, your daily beef with Romanian is ready \ud83d\udc90",
+        "Hey gorgeous, your word is here - confidence optional \ud83d\udc95",
+        "Draga mea, today's word is waiting... and yes, it probably ends in 'i' \ud83c\udf38",
+        "RWOTD is here! Time to bully your English tongue a little \ud83d\ude02",
+        "My love, ready to absolutely charm me and mispronounce one syllable? \ud83d\udc95",
+        "Another beautiful day to say, 'you reckon I can pronounce this?' \ud83c\udf3a",
+        "Your word is ready, love - and so is my laughter \ud83d\udc90",
+        "RWOTD time! Let's see if the final 'i' shows up today \ud83d\ude0f",
+        "My girl, so many days... but can you say ur\u0219i? \ud83d\udc3b",
+        "A fresh Romanian word for the love of my life to completely reinvent \ud83d\udc95",
+        "Nothing special... just another chance to defeat Romanian. Or be defeated by it \ud83c\udf38",
+        "Hey love, your word of the day is here - pronunciation under investigation \ud83c\udf37",
+        "Today's mission: learn the word, survive the accents, kiss me later \ud83c\udf3a",
+        "You all right, love? Romanian isn't \ud83d\udc95",
+        "RWOTD time - cute face, suspicious pronunciation \ud83d\ude02",
+        "My favourite student, your next victim has arrived \ud83c\udf38",
+        "Another day, another word standing between you and fluency \ud83d\udc90",
+        "Hey love, this one might finally make peace with your tongue \ud83c\udf37",
+        "Come collect your daily Romanian chaos, draga mea \ud83c\udf3a",
+        "My love, your word is here - no commitment issues for this girl, only pronunciation issues \ud83d\udc95",
+        "RWOTD is waiting patiently, unlike me when you skip the last 'i' \ud83d\ude02",
+        "Today's word has that special little sparkle... and probably some suffering \ud83c\udf38",
+        "Hey beautiful, ready to sound adorable and slightly incorrect? \ud83c\udf37",
+        "Your Romanian word is here, and honestly, it's feeling brave \ud83c\udf3a",
+        "Another lovely day for you to impress me and confuse native speakers \ud83d\udc90"
     ];
 
     function setupNotifications() {
@@ -422,22 +620,29 @@
 
     function scheduleNotification() {
         var now = new Date();
+        var times = [10, 22]; // 10 AM and 10 PM
+
+        for (var i = 0; i < times.length; i++) {
+            scheduleAt(times[i], now);
+        }
+    }
+
+    function scheduleAt(hour, now) {
         var target = new Date(
             now.getFullYear(),
             now.getMonth(),
             now.getDate(),
-            22, 0, 0, 0
+            hour, 0, 0, 0
         );
         if (now >= target) {
-            // Already past 10 PM today, schedule for tomorrow
             target.setDate(target.getDate() + 1);
         }
         var ms = target - now;
         setTimeout(function () {
             showReminder();
-            // Schedule next day
+            // Schedule next occurrence
             setTimeout(function () {
-                scheduleNotification();
+                scheduleAt(hour, new Date());
             }, 1000);
         }, ms);
     }
@@ -475,18 +680,34 @@
         var stamps = [];
         var phrases = [
             "Te iubesc",
-            "Imi e dor de tine",
-            "Esti totul pentru mine",
-            "Imi esti draga",
+            "Te pup",
+            "Te sărut",
+            "Îmi e dor de tine",
+            "Ești totul pentru mine",
+            "Îmi ești dragă",
             "Te ador",
-            "Esti viata mea",
-            "Esti soarele meu",
+            "Ești viața mea",
+            "Ești specială",
             "Te voi iubi mereu",
-            "Esti minunata",
+            "Ești minunată",
             "Inima mea e a ta",
-            "Esti cea mai frumoasa",
+            "Ești cea mai frumoasă",
             "Te iubesc nespus",
-        ];
+            "Mă gândesc la tine mereu",
+            "Sunt norocos să te am",
+            "De-abia aștept să te văd",
+            "Te îmbrățișez",
+            "Vom fi mereu împreună",
+            "Ești tot ce mi-am dorit",
+            "Lângă tine mă simt complet",
+            "Ești sufletul meu pereche",
+            "Tu ești fericirea mea",
+            "Îmi place totul la tine",
+            "Vreau să îmbătrânim împreună",
+            "Îmi place să te aud râzând",
+            "Ești cea mai bună parte din viața mea",
+            "MA WAIF"
+];
         var btn = document.getElementById("love-btn");
         var container = document.getElementById("stamps-container");
         if (!btn || !container) return;
@@ -504,8 +725,8 @@
 
         btn.addEventListener("click", function () {
             var phrase = getAvailablePhrase();
-            var x = 10 + Math.random() * 70;
-            var y = 10 + Math.random() * 70;
+            var x = 5 + Math.random() * 45;
+            var y = 5 + Math.random() * 55;
             var rot = Math.floor(Math.random() * 121) - 60;
 
             var el = document.createElement("span");
