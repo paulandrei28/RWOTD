@@ -188,6 +188,19 @@
         cardEmpty.classList.add("hidden");
         cardContent.classList.add("hidden");
         exhaustedSection.classList.remove("hidden");
+        var lastReveal = getStorage("rwotd_lastRevealDate", "");
+        if (lastReveal && lastReveal !== getTodayStr()) {
+            showCompletionOverlay();
+        }
+    }
+
+    function showCompletionOverlay() {
+        var overlay = document.getElementById("completion-overlay");
+        if (overlay) overlay.classList.remove("hidden");
+        var el = document.getElementById("streak-count");
+        if (el) el.textContent = "\u221e";
+        var badge = document.getElementById("streak-badge");
+        if (badge) badge.style.zIndex = "2100";
     }
 
     // ============ TIMER ============
@@ -218,7 +231,12 @@
         const order = getWordOrder();
         const idx = getCurrentIndex();
         if (idx >= order.length) {
-            showExhausted();
+            var lastReveal = getStorage("rwotd_lastRevealDate", "");
+            if (lastReveal && lastReveal !== getTodayStr()) {
+                enableButton();
+            } else {
+                showExhausted();
+            }
         } else {
             enableButton();
         }
@@ -501,6 +519,21 @@
         overlay.addEventListener("click", handleOverlayClick);
     }
 
+    // ============ COMPLETION RESET ============
+    var completionResetBtn = document.getElementById("completion-reset-btn");
+    if (completionResetBtn) {
+        completionResetBtn.addEventListener("click", function () {
+            if (confirm("This will reset all progress. You'll start fresh with a new random order. Continue?")) {
+                localStorage.removeItem("rwotd_wordOrder");
+                localStorage.removeItem("rwotd_currentIndex");
+                localStorage.removeItem("rwotd_history");
+                localStorage.removeItem("rwotd_lastRevealDate");
+                localStorage.removeItem("rwotd_todaysWord");
+                location.reload();
+            }
+        });
+    }
+
     // ============ RESET ============
     resetBtn.addEventListener("click", function () {
         if (
@@ -537,7 +570,17 @@
         const idx = getCurrentIndex();
 
         if (idx >= words.length) {
-            showExhausted();
+            var lastReveal = getStorage("rwotd_lastRevealDate", "");
+            if (lastReveal && lastReveal !== getTodayStr()) {
+                enableButton();
+                cardEmpty.classList.remove("hidden");
+                cardContent.classList.add("hidden");
+                checkStreakBroken();
+                migrateStreak();
+                displayStreak();
+            } else {
+                showExhausted();
+            }
             return;
         }
 
