@@ -93,8 +93,18 @@ async function sendPush(subscription, env) {
 // ---- Cron handler ----
 
 async function handleScheduled(env) {
+    const todayUTC = new Date().toISOString().slice(0, 10); // YYYY-MM-DD
     const list = await env.SUBS.list({ prefix: "sub:" });
     for (const key of list.keys) {
+        const deviceId = key.name.slice(4); // strip "sub:"
+
+        // Skip if word already revealed today
+        const lastRevealed = await env.SUBS.get(`rev:${deviceId}`);
+        if (lastRevealed === todayUTC) {
+            console.log(`Skipping ${deviceId} — already revealed today`);
+            continue;
+        }
+
         const raw = await env.SUBS.get(key.name);
         if (!raw) continue;
         let subscription;
@@ -155,6 +165,24 @@ async function handleRequest(request, env) {
             return new Response("Bad request", { status: 400, headers: CORS });
         }
         await env.SUBS.put(`sub:${deviceId}`, JSON.stringify(subscription));
+        return new Response("OK", { headers: CORS });
+    }
+
+    // POST /revealed — mark that this device has revealed today's word
+    if (request.method === "POST" && url.pathname === "/revealed") {
+        let body;
+        try {
+            body = await request.json();
+        } catch {
+            return new Response("Bad request", { status: 400, headers: CORS });
+        }
+        const { deviceId } = body;
+        if (!deviceId) {
+            return new Response("Bad request", { status: 400, headers: CORS });
+        }
+        const todayUTC = new Date().toISOString().slice(0, 10);
+        // TTL 48 h so entries expire automatically
+        await env.SUBS.put(`rev:${deviceId}`, todayUTC, { expirationTtl: 172800 });
         return new Response("OK", { headers: CORS });
     }
 

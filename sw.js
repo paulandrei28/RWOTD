@@ -1,4 +1,4 @@
-const CACHE_NAME = "rwotd-v7";
+const CACHE_NAME = "rwotd-v8";
 const ASSETS = [
     ".",
     "index.html",

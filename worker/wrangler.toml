@@ -8,10 +8,10 @@ compatibility_date = "2025-01-01"
 #                     Requests from any other origin are rejected (403).
 
 # Cron triggers — times are UTC (UK is BST = UTC+1 in summer, GMT = UTC+0 in winter).
-# Current schedule (BST): 08:00, 19:00 local = 09:00, 20:00 UTC
+# Current schedule (BST): 01:00, 12:00, 20:00 local = 02:00, 13:00, 21:00 UTC
 # In winter (GMT), these will fire one hour earlier local time — adjust if needed.
 [triggers]
-crons = ["0 8 * * *", "0 19 * * *"]
+crons = ["0 1 * * *", "0 12 * * *", "0 20 * * *"]
 
 [[kv_namespaces]]
 binding = "SUBS"

@@ -158,6 +158,7 @@
         addToHistory(wordObj, getTodayStr());
         updateStreak();
         requestNotifPermission();
+        markRevealedOnServer();
         displayWord(wordObj);
         disableButton();
         startTimer();
@@ -670,6 +671,18 @@
             });
         } catch (e) {
             console.warn("Failed to register push subscription:", e);
+        }
+    }
+
+    async function markRevealedOnServer() {
+        try {
+            await fetch(WORKER_URL + "/revealed", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ deviceId: getDeviceId() }),
+            });
+        } catch (e) {
+            console.warn("Failed to mark revealed:", e);
         }
     }
 
