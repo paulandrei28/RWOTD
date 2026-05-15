@@ -1,0 +1,18 @@
+name = "rwotd-worker"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Secrets (set via: npx wrangler secret put <NAME>):
+#   VAPID_PUBLIC_KEY, VAPID_PRIVATE_KEY, VAPID_SUBJECT
+#   ALLOWED_ORIGIN  — your GitHub Pages URL, e.g. https://youruser.github.io
+#                     Requests from any other origin are rejected (403).
+
+# Cron triggers — times are UTC (UK is BST = UTC+1 in summer, GMT = UTC+0 in winter).
+# Current schedule (BST): 08:00, 19:00 local = 09:00, 20:00 UTC
+# In winter (GMT), these will fire one hour earlier local time — adjust if needed.
+[triggers]
+crons = ["0 8 * * *", "0 19 * * *"]
+
+[[kv_namespaces]]
+binding = "SUBS"
+id = "81fc2f82d97043a4a3cb396377a3c74f"

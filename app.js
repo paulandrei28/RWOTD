@@ -1,4 +1,4 @@
-(function () {
+﻿(function () {
     "use strict";
 
     // ============ STATE ============
@@ -604,99 +604,91 @@
         setupNotifications();
     }
 
-    // ============ NOTIFICATIONS ============
-    var notifMessages = [
-        "My love, time for RWOTD! \ud83c\udf38",
-        "New day, new RWOTD! \ud83d\udc95",
-        "A new Romanian word awaits you! \ud83c\udf37",
-        "Don't forget your word today, draga mea! \ud83c\udf3a",
-        "RWOTD time! Come learn something new \ud83d\udc90",
-        "Hey love, your word is waiting for you! \ud83d\udc95",
-        "Nothing special... just your Romanian word waiting to humble you \ud83c\udf38",
-        "You all right? Because today's word is ready for battle \ud83d\udc95",
-        "RWOTD time, my love - let's see what happens to that shy little 'i' today \ud83c\udf37",
-        "Another day, another Romanian word you can almost pronounce \ud83c\udf3a",
-        "Come on love, your daily beef with Romanian is ready \ud83d\udc90",
-        "Hey gorgeous, your word is here - confidence optional \ud83d\udc95",
-        "Draga mea, today's word is waiting... and yes, it probably ends in 'i' \ud83c\udf38",
-        "RWOTD is here! Time to bully your English tongue a little \ud83d\ude02",
-        "My love, ready to absolutely charm me and mispronounce one syllable? \ud83d\udc95",
-        "Another beautiful day to say, 'you reckon I can pronounce this?' \ud83c\udf3a",
-        "Your word is ready, love - and so is my laughter \ud83d\udc90",
-        "RWOTD time! Let's see if the final 'i' shows up today \ud83d\ude0f",
-        "My girl, so many days... but can you say urși? \ud83d\udc3b",
-        "A fresh Romanian word for the love of my life to completely reinvent \ud83d\udc95",
-        "Nothing special... just another chance to defeat Romanian. Or be defeated by it \ud83c\udf38",
-        "Hey love, your word of the day is here - pronunciation under investigation \ud83c\udf37",
-        "Today's mission: learn the word, survive the accents, kiss me later \ud83c\udf3a",
-        "You all right, love? Romanian isn't \ud83d\udc95",
-        "RWOTD time - cute face, suspicious pronunciation \ud83d\ude02",
-        "My favourite student, your next victim has arrived \ud83c\udf38",
-        "Another day, another word standing between you and fluency \ud83d\udc90",
-        "Hey love, this one might finally make peace with your tongue \ud83c\udf37",
-        "Come collect your daily Romanian chaos, draga mea \ud83c\udf3a",
-        "RWOTD is waiting patiently, unlike me when you skip the last 'i' \ud83d\ude02",
-        "Today's word has that special little sparkle... and probably some suffering \ud83c\udf38",
-        "Hey beautiful, ready to sound adorable and slightly incorrect? \ud83c\udf37",
-        "Your Romanian word is here, and honestly, it's feeling brave \ud83c\udf3a",
-        "Another lovely day for you to impress me and confuse native speakers \ud83d\udc90"
-    ];
+    // ============ PUSH NOTIFICATIONS ============
+    // After deploying the worker, replace this with your actual worker URL:
+    var WORKER_URL = "https://rwotd-worker.paulworkers.workers.dev";
+
+    function getDeviceId() {
+        var id = getStorage("rwotd_deviceId", null);
+        if (!id) {
+            id = crypto.randomUUID
+                ? crypto.randomUUID()
+                : Math.random().toString(36).slice(2) + Date.now().toString(36);
+            setStorage("rwotd_deviceId", id);
+        }
+        return id;
+    }
+
+    function base64urlToUint8Array(base64url) {
+        var base64 = base64url.replace(/-/g, "+").replace(/_/g, "/");
+        while (base64.length % 4) base64 += "=";
+        var raw = atob(base64);
+        var bytes = new Uint8Array(raw.length);
+        for (var i = 0; i < raw.length; i++) bytes[i] = raw.charCodeAt(i);
+        return bytes;
+    }
+
+    async function getVapidPublicKey() {
+        var cached = getStorage("rwotd_vapidKey", null);
+        if (cached) return cached;
+        var resp = await fetch(WORKER_URL + "/vapid-public-key");
+        var data = await resp.json();
+        setStorage("rwotd_vapidKey", data.publicKey);
+        return data.publicKey;
+    }
+
+    async function ensurePushSubscription() {
+        try {
+            var reg = await navigator.serviceWorker.ready;
+            var existing = await reg.pushManager.getSubscription();
+            if (existing) {
+                await sendSubscriptionToServer(existing);
+                return;
+            }
+            var vapidKey = await getVapidPublicKey();
+            var subscription = await reg.pushManager.subscribe({
+                userVisibleOnly: true,
+                applicationServerKey: base64urlToUint8Array(vapidKey),
+            });
+            await sendSubscriptionToServer(subscription);
+        } catch (e) {
+            console.warn("Push subscription error:", e);
+        }
+    }
+
+    async function sendSubscriptionToServer(subscription) {
+        try {
+            await fetch(WORKER_URL + "/subscribe", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({
+                    deviceId: getDeviceId(),
+                    subscription: subscription.toJSON(),
+                }),
+            });
+        } catch (e) {
+            console.warn("Failed to register push subscription:", e);
+        }
+    }
 
     function setupNotifications() {
-        if (!("Notification" in window)) return;
+        if (!("serviceWorker" in navigator) || !("PushManager" in window)) return;
         if (Notification.permission === "granted") {
-            scheduleNotification();
+            ensurePushSubscription();
         }
     }
 
     function requestNotifPermission() {
-        if (!("Notification" in window)) return;
+        if (!("serviceWorker" in navigator) || !("PushManager" in window)) return;
         if (Notification.permission === "default") {
             Notification.requestPermission().then(function (perm) {
                 if (perm === "granted") {
-                    scheduleNotification();
+                    ensurePushSubscription();
                 }
             });
         }
-    }
-
-    function scheduleNotification() {
-        var now = new Date();
-        var times = [10, 22]; // 10 AM and 10 PM
-
-        for (var i = 0; i < times.length; i++) {
-            scheduleAt(times[i], now);
-        }
-    }
-
-    function scheduleAt(hour, now) {
-        var target = new Date(
-            now.getFullYear(),
-            now.getMonth(),
-            now.getDate(),
-            hour, 0, 0, 0
-        );
-        if (now >= target) {
-            target.setDate(target.getDate() + 1);
-        }
-        var ms = target - now;
-        setTimeout(function () {
-            showReminder();
-            // Schedule next occurrence
-            setTimeout(function () {
-                scheduleAt(hour, new Date());
-            }, 1000);
-        }, ms);
-    }
-
-    function showReminder() {
-        if (Notification.permission !== "granted") return;
-        if (hasRevealedToday()) return; // Already did today's word
-        var msg = notifMessages[Math.floor(Math.random() * notifMessages.length)];
-        new Notification("RWOTD", {
-            body: msg,
-            icon: "icons/icon-192.png",
-        });
     }
 
     // ============ SERVICE WORKER ============
